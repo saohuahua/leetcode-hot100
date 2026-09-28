@@ -30,6 +30,16 @@ for (const group of manifest.groups) {
     if (!fs.existsSync(source)) { errors.push(`缺少 ${source}`); continue }
     if (!testSources.includes(`../solutions/${String(group.index).padStart(2, '0')}/${id}.js`)) errors.push(`${p.id} 没有测试导入`)
     const markdown = fs.readFileSync(matches[0], 'utf8')
+    const requiredHeadings = [/^## 题目\s*$/m, /^### 官方示例\s*$/m, /^### 约束\s*$/m, /^## 前期思路\s*$/m, /^## 执行过程/m, /^## TypeScript 实现/m]
+    const positions = requiredHeadings.map(pattern => markdown.search(pattern))
+    if (positions.some(position => position < 0) || positions.some((position, index) => index > 0 && position <= positions[index - 1])) errors.push(`${p.id} 题目 思路 示例或实现章节缺失或顺序异常`)
+    const examples = markdown.split('### 官方示例')[1]?.split('### 约束')[0] ?? ''
+    const exampleBlocks = examples.split(/^> \*\*示例/gm).slice(1)
+    if (exampleBlocks.length === 0 || exampleBlocks.some(block => !block.includes('输入') || !block.includes('输出'))) errors.push(`${p.id} 官方示例缺少输入或输出`)
+    const constraints = markdown.split('### 约束')[1]?.split('## 前期思路')[0] ?? ''
+    if (!/^\s*- /m.test(constraints)) errors.push(`${p.id} 缺少题目约束列表`)
+    const thinking = markdown.split('## 前期思路')[1]?.split(/^## /m)[0] ?? ''
+    if ((thinking.match(/^### /gm) || []).length < 3) errors.push(`${p.id} 前期思路缺少直接方法 优化依据或解法推导`)
     const fences = [...markdown.matchAll(/```ts\r?\n([\s\S]*?)```/g)]
     if (fences.length !== 1 || fences[0][1].trim() !== fs.readFileSync(source, 'utf8').trim()) errors.push(`${p.id} 正文实现与源码不一致`)
     const implementationHeading = markdown.search(/^## .*TypeScript.*实现/m)
@@ -65,5 +75,5 @@ if (errors.length) {
   console.error(errors.join('\n'))
   process.exitCode = 1
 } else {
-  console.log('通过 100题唯一覆盖 17章导航 测试入口 代码同步 提示结构 本地链接与注释规范')
+  console.log('通过 100题唯一覆盖 17章导航 题目与思路顺序 官方示例 约束 代码同步 提示结构 本地链接与注释规范')
 }

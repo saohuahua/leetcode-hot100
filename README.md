@@ -65,6 +65,6 @@ npx tsx --test tests/01.test.ts
 
 ## 来源与质量记录
 
-题目范围来自 [力扣官方热题 100](https://leetcode.cn/studyplan/top-100-liked/)，2026-09-28 读取官方页面数据核对，包含 17 类、100 个唯一题号。结构化清单见 [data/hot100.json](data/hot100.json)，原始页面数据快照见 [data/official-page-data.json](data/official-page-data.json)。题目讲解为本项目自行组织，题意使用概述。
+题目范围来自 [力扣官方热题 100](https://leetcode.cn/studyplan/top-100-liked/)，2026-09-28 读取官方页面数据核对，包含 17 类、100 个唯一题号。结构化清单见 [data/hot100.json](data/hot100.json)，原始页面数据快照见 [data/official-page-data.json](data/official-page-data.json)。题目讲解为本项目自行组织，题意完整重述，并列出官方示例与约束。
 
 编写要求见 [AUTHORING.md](AUTHORING.md)，独立审阅、修改与实际验证结果见 [审阅记录](reviews/README.md)。
