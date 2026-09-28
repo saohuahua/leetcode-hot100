@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-09-27T17:26:42.998Z",
+  "node": "v22.23.2",
+  "buildRun": false,
+  "results": [
+    {
+      "name": "typecheck",
+      "command": "npm run typecheck",
+      "exitCode": 0
+    },
+    {
+      "name": "tests",
+      "command": "npm test",
+      "exitCode": 0,
+      "summary": {
+        "tests": 125,
+        "pass": 125,
+        "fail": 0,
+        "cancelled": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "name": "documentation",
+      "command": "npm run check:docs",
+      "exitCode": 0
+    }
+  ]
+}

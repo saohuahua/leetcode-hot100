@@ -1,0 +1,760 @@
+TAP version 13
+# Subtest: 两数之和覆盖官方示例与常见误区
+ok 1 - 两数之和覆盖官方示例与常见误区
+  ---
+  duration_ms: 2.0329
+  type: 'test'
+  ...
+# Subtest: 两数之和在小规模输入上与枚举对照
+ok 2 - 两数之和在小规模输入上与枚举对照
+  ---
+  duration_ms: 3.3249
+  type: 'test'
+  ...
+# Subtest: 异位词分组保留空词重复词与计数差异
+ok 3 - 异位词分组保留空词重复词与计数差异
+  ---
+  duration_ms: 0.4023
+  type: 'test'
+  ...
+# Subtest: 最长连续序列忽略位置与重复并支持负数
+ok 4 - 最长连续序列忽略位置与重复并支持负数
+  ---
+  duration_ms: 0.4742
+  type: 'test'
+  ...
+# Subtest: 移动零原地保持非零顺序
+ok 5 - 移动零原地保持非零顺序
+  ---
+  duration_ms: 2.1315
+  type: 'test'
+  ...
+# Subtest: 盛水容器样例与短边移动反例
+ok 6 - 盛水容器样例与短边移动反例
+  ---
+  duration_ms: 0.439
+  type: 'test'
+  ...
+# Subtest: 三数之和去重且保留输入
+ok 7 - 三数之和去重且保留输入
+  ---
+  duration_ms: 0.7367
+  type: 'test'
+  ...
+# Subtest: 接雨水样例与边界
+ok 8 - 接雨水样例与边界
+  ---
+  duration_ms: 0.4229
+  type: 'test'
+  ...
+# Subtest: 容器与三数之和小规模枚举对照
+ok 9 - 容器与三数之和小规模枚举对照
+  ---
+  duration_ms: 4.1714
+  type: 'test'
+  ...
+# Subtest: 0003 官方示例与合法边界
+ok 10 - 0003 官方示例与合法边界
+  ---
+  duration_ms: 0.8508
+  type: 'test'
+  ...
+# Subtest: 0003 短字符串与独立枚举对照
+ok 11 - 0003 短字符串与独立枚举对照
+  ---
+  duration_ms: 5.554
+  type: 'test'
+  ...
+# Subtest: 异位词窗口计数与重叠匹配
+ok 12 - 异位词窗口计数与重叠匹配
+  ---
+  duration_ms: 0.9493
+  type: 'test'
+  ...
+# Subtest: 和为K计数保留重复前缀并排除空区间
+ok 13 - 和为K计数保留重复前缀并排除空区间
+  ---
+  duration_ms: 1.1988
+  type: 'test'
+  ...
+# Subtest: 滑动最大值处理过期相等和极端窗口长度
+ok 14 - 滑动最大值处理过期相等和极端窗口长度
+  ---
+  duration_ms: 1.628
+  type: 'test'
+  ...
+# Subtest: 最小覆盖区分多余份数和缺失份数
+ok 15 - 最小覆盖区分多余份数和缺失份数
+  ---
+  duration_ms: 0.3618
+  type: 'test'
+  ...
+# Subtest: 前缀计数与窗口最大值对照逐区间枚举
+ok 16 - 前缀计数与窗口最大值对照逐区间枚举
+  ---
+  duration_ms: 8.676
+  type: 'test'
+  ...
+# Subtest: 最小覆盖短二元字符串穷举对照
+ok 17 - 最小覆盖短二元字符串穷举对照
+  ---
+  duration_ms: 13.8903
+  type: 'test'
+  ...
+# Subtest: 最大子数组和不允许空区间
+ok 18 - 最大子数组和不允许空区间
+  ---
+  duration_ms: 0.8857
+  type: 'test'
+  ...
+# Subtest: 合并区间处理接触包含和乱序且不修改内层输入
+ok 19 - 合并区间处理接触包含和乱序且不修改内层输入
+  ---
+  duration_ms: 0.9664
+  type: 'test'
+  ...
+# Subtest: 轮转原地处理取余和零步
+ok 20 - 轮转原地处理取余和零步
+  ---
+  duration_ms: 0.3406
+  type: 'test'
+  ...
+# Subtest: 除自身乘积处理零和负数
+ok 21 - 除自身乘积处理零和负数
+  ---
+  duration_ms: 0.2247
+  type: 'test'
+  ...
+# Subtest: 缺失正数处理重复和换回值
+ok 22 - 缺失正数处理重复和换回值
+  ---
+  duration_ms: 0.241
+  type: 'test'
+  ...
+# Subtest: 最大连续和与缺失正数小规模穷举对照
+ok 23 - 最大连续和与缺失正数小规模穷举对照
+  ---
+  duration_ms: 1.9452
+  type: 'test'
+  ...
+# Subtest: 矩阵置零基于原始事实且区分首行首列
+ok 24 - 矩阵置零基于原始事实且区分首行首列
+  ---
+  duration_ms: 1.7215
+  type: 'test'
+  ...
+# Subtest: 螺旋处理方阵长方形单行单列
+ok 25 - 螺旋处理方阵长方形单行单列
+  ---
+  duration_ms: 0.3454
+  type: 'test'
+  ...
+# Subtest: 旋转图像方向正确且四次恢复
+ok 26 - 旋转图像方向正确且四次恢复
+  ---
+  duration_ms: 0.6755
+  type: 'test'
+  ...
+# Subtest: 搜索矩阵不假设按行展开全局有序
+ok 27 - 搜索矩阵不假设按行展开全局有序
+  ---
+  duration_ms: 0.2139
+  type: 'test'
+  ...
+# Subtest: 矩阵置零所有小型零分布对照独立副本
+ok 28 - 矩阵置零所有小型零分布对照独立副本
+  ---
+  duration_ms: 0.8478
+  type: 'test'
+  ...
+# Subtest: 0160 相交使用对象身份且不修改连接
+ok 29 - 0160 相交使用对象身份且不修改连接
+  ---
+  duration_ms: 1.1633
+  type: 'test'
+  ...
+# Subtest: 0206 反转原节点并正确终止
+ok 30 - 0206 反转原节点并正确终止
+  ---
+  duration_ms: 0.8781
+  type: 'test'
+  ...
+# Subtest: 0234 成功失败均恢复原连接
+ok 31 - 0234 成功失败均恢复原连接
+  ---
+  duration_ms: 1.0415
+  type: 'test'
+  ...
+# Subtest: 0141 与 0142 环存在与入口引用
+ok 32 - 0141 与 0142 环存在与入口引用
+  ---
+  duration_ms: 0.6391
+  type: 'test'
+  ...
+# Subtest: 0021 合并样例与节点保留
+ok 33 - 0021 合并样例与节点保留
+  ---
+  duration_ms: 0.2792
+  type: 'test'
+  ...
+# Subtest: 0002 数位进位与长整数输入
+ok 34 - 0002 数位进位与长整数输入
+  ---
+  duration_ms: 0.3548
+  type: 'test'
+  ...
+# Subtest: 0019 删除头尾与中间
+ok 35 - 0019 删除头尾与中间
+  ---
+  duration_ms: 0.174
+  type: 'test'
+  ...
+# Subtest: 0024 交换的是节点对象
+ok 36 - 0024 交换的是节点对象
+  ---
+  duration_ms: 0.1578
+  type: 'test'
+  ...
+# Subtest: 0025 各组反转及不足组保留
+ok 37 - 0025 各组反转及不足组保留
+  ---
+  duration_ms: 0.7553
+  type: 'test'
+  ...
+# Subtest: 0138 深拷贝随机边与重复值身份
+ok 38 - 0138 深拷贝随机边与重复值身份
+  ---
+  duration_ms: 0.4869
+  type: 'test'
+  ...
+# Subtest: 0148 与数组排序对照并保留全部节点
+ok 39 - 0148 与数组排序对照并保留全部节点
+  ---
+  duration_ms: 4.6099
+  type: 'test'
+  ...
+# Subtest: 0023 合并多个有序链与空输入
+ok 40 - 0023 合并多个有序链与空输入
+  ---
+  duration_ms: 0.2634
+  type: 'test'
+  ...
+# Subtest: 0146 命中刷新更新与容量边界
+ok 41 - 0146 命中刷新更新与容量边界
+  ---
+  duration_ms: 0.2257
+  type: 'test'
+  ...
+# Subtest: 0094 中序顺序与空树
+ok 42 - 0094 中序顺序与空树
+  ---
+  duration_ms: 2.3425
+  type: 'test'
+  ...
+# Subtest: 0104 最大深度不是最早叶子
+ok 43 - 0104 最大深度不是最早叶子
+  ---
+  duration_ms: 0.3696
+  type: 'test'
+  ...
+# Subtest: 0226 翻转两次恢复每个节点原连接
+ok 44 - 0226 翻转两次恢复每个节点原连接
+  ---
+  duration_ms: 0.3889
+  type: 'test'
+  ...
+# Subtest: 0101 对称包含空位置
+ok 45 - 0101 对称包含空位置
+  ---
+  duration_ms: 1.1151
+  type: 'test'
+  ...
+# Subtest: 0543 直径按边且可不经过根
+ok 46 - 0543 直径按边且可不经过根
+  ---
+  duration_ms: 0.3443
+  type: 'test'
+  ...
+# Subtest: 0102 按层从左到右输出
+ok 47 - 0102 按层从左到右输出
+  ---
+  duration_ms: 0.3736
+  type: 'test'
+  ...
+# Subtest: 0108 验证排序与每处平衡而非固定树形
+ok 48 - 0108 验证排序与每处平衡而非固定树形
+  ---
+  duration_ms: 3.8571
+  type: 'test'
+  ...
+# Subtest: 0098 继承祖先限制及严格不等
+ok 49 - 0098 继承祖先限制及严格不等
+  ---
+  duration_ms: 0.35
+  type: 'test'
+  ...
+# Subtest: 0230 中序排名从一开始
+ok 50 - 0230 中序排名从一开始
+  ---
+  duration_ms: 0.5728
+  type: 'test'
+  ...
+# Subtest: 0199 左子树深层也可能可见
+ok 51 - 0199 左子树深层也可能可见
+  ---
+  duration_ms: 0.5965
+  type: 'test'
+  ...
+# Subtest: 0114 原地按前序重连且所有左边为空
+ok 52 - 0114 原地按前序重连且所有左边为空
+  ---
+  duration_ms: 0.2789
+  type: 'test'
+  ...
+# Subtest: 0105 重建后的两个遍历应还原输入
+ok 53 - 0105 重建后的两个遍历应还原输入
+  ---
+  duration_ms: 0.2522
+  type: 'test'
+  ...
+# Subtest: 0437 前缀次数与兄弟分支撤销
+ok 54 - 0437 前缀次数与兄弟分支撤销
+  ---
+  duration_ms: 3.0036
+  type: 'test'
+  ...
+# Subtest: 0236 最近祖先按引用且自身也可为祖先
+ok 55 - 0236 最近祖先按引用且自身也可为祖先
+  ---
+  duration_ms: 0.2818
+  type: 'test'
+  ...
+# Subtest: 0124 负数与不经过根的最大路径
+ok 56 - 0124 负数与不经过根的最大路径
+  ---
+  duration_ms: 3.288
+  type: 'test'
+  ...
+# Subtest: 0200 官方示例 连通规则与输入保持
+ok 57 - 0200 官方示例 连通规则与输入保持
+  ---
+  duration_ms: 2.2241
+  type: 'test'
+  ...
+# Subtest: 0200 小网格与独立集合合并模型对照
+ok 58 - 0200 小网格与独立集合合并模型对照
+  ---
+  duration_ms: 1.523
+  type: 'test'
+  ...
+# Subtest: 0994 官方示例与全部两行三列网格同步模拟
+ok 59 - 0994 官方示例与全部两行三列网格同步模拟
+  ---
+  duration_ms: 8.3664
+  type: 'test'
+  ...
+# Subtest: 0207 官方示例 孤立课程与环
+ok 60 - 0207 官方示例 孤立课程与环
+  ---
+  duration_ms: 1.1317
+  type: 'test'
+  ...
+# Subtest: 0208 前缀与单词结束标记
+ok 61 - 0208 前缀与单词结束标记
+  ---
+  duration_ms: 0.4103
+  type: 'test'
+  ...
+# Subtest: 0079 示例 禁止复用与输入恢复
+ok 62 - 0079 示例 禁止复用与输入恢复
+  ---
+  duration_ms: 2.4254
+  type: 'test'
+  ...
+# Subtest: 0131 示例与较长片段重新成为回文
+ok 63 - 0131 示例与较长片段重新成为回文
+  ---
+  duration_ms: 0.5116
+  type: 'test'
+  ...
+# Subtest: 0051 示例 无解与棋盘攻击校验
+ok 64 - 0051 示例 无解与棋盘攻击校验
+  ---
+  duration_ms: 0.7231
+  type: 'test'
+  ...
+# Subtest: 0039 示例与重复使用和无解
+ok 65 - 0039 示例与重复使用和无解
+  ---
+  duration_ms: 0.3201
+  type: 'test'
+  ...
+# Subtest: 0022 示例与每个前缀合法
+ok 66 - 0022 示例与每个前缀合法
+  ---
+  duration_ms: 0.5801
+  type: 'test'
+  ...
+# Subtest: 0046 示例与排列完整性
+ok 67 - 0046 示例与排列完整性
+  ---
+  duration_ms: 0.3056
+  type: 'test'
+  ...
+# Subtest: 0078 示例与空集
+ok 68 - 0078 示例与空集
+  ---
+  duration_ms: 0.2769
+  type: 'test'
+  ...
+# Subtest: 0017 示例与四字母按键
+ok 69 - 0017 示例与四字母按键
+  ---
+  duration_ms: 0.3799
+  type: 'test'
+  ...
+# Subtest: 0033 示例以及全部小规模旋转位置
+ok 70 - 0033 示例以及全部小规模旋转位置
+  ---
+  duration_ms: 2.6808
+  type: 'test'
+  ...
+# Subtest: 0153 示例与所有小规模旋转位置
+ok 71 - 0153 示例与所有小规模旋转位置
+  ---
+  duration_ms: 0.6029
+  type: 'test'
+  ...
+# Subtest: 0004 示例 空数组及独立合并对照
+ok 72 - 0004 示例 空数组及独立合并对照
+  ---
+  duration_ms: 15.9756
+  type: 'test'
+  ...
+# Subtest: 0035 示例与两侧插入边界
+ok 73 - 0035 示例与两侧插入边界
+  ---
+  duration_ms: 0.3171
+  type: 'test'
+  ...
+# Subtest: 0074 示例与单格边界
+ok 74 - 0074 示例与单格边界
+  ---
+  duration_ms: 0.3442
+  type: 'test'
+  ...
+# Subtest: 0034 示例 空输入和全相同
+ok 75 - 0034 示例 空输入和全相同
+  ---
+  duration_ms: 1.3871
+  type: 'test'
+  ...
+# Subtest: 0020 嵌套 次序与遗留左括号
+ok 76 - 0020 嵌套 次序与遗留左括号
+  ---
+  duration_ms: 1.1725
+  type: 'test'
+  ...
+# Subtest: 0155 最小值恢复及重复最小值
+ok 77 - 0155 最小值恢复及重复最小值
+  ---
+  duration_ms: 0.4509
+  type: 'test'
+  ...
+# Subtest: 0394 多位次数 嵌套与普通前后缀
+ok 78 - 0394 多位次数 嵌套与普通前后缀
+  ---
+  duration_ms: 0.2911
+  type: 'test'
+  ...
+# Subtest: 0739 官方示例与短数组逐日扫描对照
+ok 79 - 0739 官方示例与短数组逐日扫描对照
+  ---
+  duration_ms: 5.847
+  type: 'test'
+  ...
+# Subtest: 0084 官方示例与全部短区间枚举对照
+ok 80 - 0084 官方示例与全部短区间枚举对照
+  ---
+  duration_ms: 9.4388
+  type: 'test'
+  ...
+# Subtest: 堆的上下浮恢复与空堆边界
+ok 81 - 堆的上下浮恢复与空堆边界
+  ---
+  duration_ms: 1.6505
+  type: 'test'
+  ...
+# Subtest: 0215 官方示例 所有排名 重复与输入不变
+ok 82 - 0215 官方示例 所有排名 重复与输入不变
+  ---
+  duration_ms: 109.4189
+  type: 'test'
+  ...
+# Subtest: 0347 频次优先及不同元素输出
+ok 83 - 0347 频次优先及不同元素输出
+  ---
+  duration_ms: 2.1686
+  type: 'test'
+  ...
+# Subtest: 0295 每个前缀与完整排序中位数对照
+ok 84 - 0295 每个前缀与完整排序中位数对照
+  ---
+  duration_ms: 0.891
+  type: 'test'
+  ...
+# Subtest: 0121 样例 下跌与所有买卖日期对照
+ok 85 - 0121 样例 下跌与所有买卖日期对照
+  ---
+  duration_ms: 3.0712
+  type: 'test'
+  ...
+# Subtest: 0055与0045 样例及短数组可达距离对照
+ok 86 - 0055与0045 样例及短数组可达距离对照
+  ---
+  duration_ms: 3.2663
+  type: 'test'
+  ...
+# Subtest: 0763 样例及短字符串所有切分对照
+ok 87 - 0763 样例及短字符串所有切分对照
+  ---
+  duration_ms: 15.2387
+  type: 'test'
+  ...
+# Subtest: 0070 官方示例和合法边界
+ok 88 - 0070 官方示例和合法边界
+  ---
+  duration_ms: 1.2075
+  type: 'test'
+  ...
+# Subtest: 0070 不同顺序属于不同走法
+ok 89 - 0070 不同顺序属于不同走法
+  ---
+  duration_ms: 0.1278
+  type: 'test'
+  ...
+# Subtest: 0070 小输入与独立枚举对照
+ok 90 - 0070 小输入与独立枚举对照
+  ---
+  duration_ms: 0.4968
+  type: 'test'
+  ...
+# Subtest: 0152 示例与负负转正
+ok 91 - 0152 示例与负负转正
+  ---
+  duration_ms: 0.2146
+  type: 'test'
+  ...
+# Subtest: 0416 示例与错误重复使用反例
+ok 92 - 0416 示例与错误重复使用反例
+  ---
+  duration_ms: 0.1907
+  type: 'test'
+  ...
+# Subtest: 0032 示例与左右连接及枚举对照
+ok 93 - 0032 示例与左右连接及枚举对照
+  ---
+  duration_ms: 2.6942
+  type: 'test'
+  ...
+# Subtest: 0322 示例 零金额及贪心反例
+ok 94 - 0322 示例 零金额及贪心反例
+  ---
+  duration_ms: 1.2315
+  type: 'test'
+  ...
+# Subtest: 0139 示例与最长词优先反例
+ok 95 - 0139 示例与最长词优先反例
+  ---
+  duration_ms: 0.2395
+  type: 'test'
+  ...
+# Subtest: 0300 示例与严格递增边界
+ok 96 - 0300 示例与严格递增边界
+  ---
+  duration_ms: 0.4222
+  type: 'test'
+  ...
+# Subtest: 0118 示例与独立行引用
+ok 97 - 0118 示例与独立行引用
+  ---
+  duration_ms: 1.1805
+  type: 'test'
+  ...
+# Subtest: 0198 示例与不能只选奇偶位置
+ok 98 - 0198 示例与不能只选奇偶位置
+  ---
+  duration_ms: 0.2026
+  type: 'test'
+  ...
+# Subtest: 0279 示例与最大平方数贪心反例
+ok 99 - 0279 示例与最大平方数贪心反例
+  ---
+  duration_ms: 0.1573
+  type: 'test'
+  ...
+# Subtest: 0005 示例与奇偶回文
+ok 100 - 0005 示例与奇偶回文
+  ---
+  duration_ms: 1.2671
+  type: 'test'
+  ...
+# Subtest: 1143 示例与顺序约束
+ok 101 - 1143 示例与顺序约束
+  ---
+  duration_ms: 0.448
+  type: 'test'
+  ...
+# Subtest: 0072 示例与空串和相同串
+ok 102 - 0072 示例与空串和相同串
+  ---
+  duration_ms: 0.4498
+  type: 'test'
+  ...
+# Subtest: 0062 示例与单行单格
+ok 103 - 0062 示例与单行单格
+  ---
+  duration_ms: 0.321
+  type: 'test'
+  ...
+# Subtest: 0064 示例 单格零与输入保持
+ok 104 - 0064 示例 单格零与输入保持
+  ---
+  duration_ms: 1.3384
+  type: 'test'
+  ...
+# Subtest: 0136 官方样例与带符号成对抵消
+ok 105 - 0136 官方样例与带符号成对抵消
+  ---
+  duration_ms: 1.0478
+  type: 'test'
+  ...
+# Subtest: 0169 官方样例与所有短数组多数验证
+ok 106 - 0169 官方样例与所有短数组多数验证
+  ---
+  duration_ms: 1.6241
+  type: 'test'
+  ...
+# Subtest: 0075 全部短颜色数组与排序基准对照
+ok 107 - 0075 全部短颜色数组与排序基准对照
+  ---
+  duration_ms: 10.4924
+  type: 'test'
+  ...
+# Subtest: 0031 全部小排列与字典序完整列表对照
+ok 108 - 0031 全部小排列与字典序完整列表对照
+  ---
+  duration_ms: 0.8632
+  type: 'test'
+  ...
+# Subtest: 0287 官方样例 重复多次与原数组不变
+ok 109 - 0287 官方样例 重复多次与原数组不变
+  ---
+  duration_ms: 0.777
+  type: 'test'
+  ...
+# Subtest: 独立复核边界查找与线性位置对照
+ok 110 - 独立复核边界查找与线性位置对照
+  ---
+  duration_ms: 5.9467
+  type: 'test'
+  ...
+# Subtest: 独立复核乘积极值与所有连续区间对照
+ok 111 - 独立复核乘积极值与所有连续区间对照
+  ---
+  duration_ms: 4.464
+  type: 'test'
+  ...
+# Subtest: 独立复核子集型状态与完整掩码枚举对照
+ok 112 - 独立复核子集型状态与完整掩码枚举对照
+  ---
+  duration_ms: 10.534
+  type: 'test'
+  ...
+# Subtest: 独立复核零钱使用逐层金额可达搜索
+ok 113 - 独立复核零钱使用逐层金额可达搜索
+  ---
+  duration_ms: 3.5849
+  type: 'test'
+  ...
+# Subtest: 独立复核单词拆分使用逐词消费递归
+ok 114 - 独立复核单词拆分使用逐词消费递归
+  ---
+  duration_ms: 5.4713
+  type: 'test'
+  ...
+# Subtest: 独立复核回文与公共子序列使用直接枚举
+ok 115 - 独立复核回文与公共子序列使用直接枚举
+  ---
+  duration_ms: 34.697
+  type: 'test'
+  ...
+# Subtest: 独立复核编辑距离使用实际编辑字符串的分层搜索
+ok 116 - 独立复核编辑距离使用实际编辑字符串的分层搜索
+  ---
+  duration_ms: 2.0083
+  type: 'test'
+  ...
+# Subtest: 独立复核网格状态使用完整路线枚举
+ok 117 - 独立复核网格状态使用完整路线枚举
+  ---
+  duration_ms: 4.3582
+  type: 'test'
+  ...
+# Subtest: 独立复核组合总和使用每种值的次数枚举
+ok 118 - 独立复核组合总和使用每种值的次数枚举
+  ---
+  duration_ms: 2.2137
+  type: 'test'
+  ...
+# Subtest: 独立复核回文切分使用全部间隙掩码
+ok 119 - 独立复核回文切分使用全部间隙掩码
+  ---
+  duration_ms: 4.4523
+  type: 'test'
+  ...
+# Subtest: 独立复核单词搜索使用不可变路径状态队列
+ok 120 - 独立复核单词搜索使用不可变路径状态队列
+  ---
+  duration_ms: 6.5741
+  type: 'test'
+  ...
+# Subtest: 独立复核皇后使用全部列配置后验检查
+ok 121 - 独立复核皇后使用全部列配置后验检查
+  ---
+  duration_ms: 4.7162
+  type: 'test'
+  ...
+# Subtest: 独立复核括号与子集使用完整二进制选择枚举
+ok 122 - 独立复核括号与子集使用完整二进制选择枚举
+  ---
+  duration_ms: 3.3001
+  type: 'test'
+  ...
+# Subtest: 审阅回归 0124 三万合法节点深链不依赖调用栈
+ok 123 - 审阅回归 0124 三万合法节点深链不依赖调用栈
+  ---
+  duration_ms: 18.5614
+  type: 'test'
+  ...
+# Subtest: 审阅回归 0543 一万节点深链直径按边计算
+ok 124 - 审阅回归 0543 一万节点深链直径按边计算
+  ---
+  duration_ms: 6.0067
+  type: 'test'
+  ...
+# Subtest: 审阅回归 0236 十万节点深链与不同目标
+ok 125 - 审阅回归 0236 十万节点深链与不同目标
+  ---
+  duration_ms: 64.9596
+  type: 'test'
+  ...
+1..125
+# tests 125
+# suites 0
+# pass 125
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1851.1665

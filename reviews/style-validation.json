@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-09-28T08:02:30.5174271Z",
+  "status": "passed",
+  "scope": "教材文体与SVG修订",
+  "chapterMarkdownFiles": 139,
+  "problemCount": 100,
+  "comparedSourceAndTestFiles": 121,
+  "changedSourceAndTestFiles": 0,
+  "svgFiles": 9,
+  "addedSvgFiles": 6,
+  "addedSvgRenderedAndViewed": 6,
+  "buildRun": false,
+  "algorithmTestsRerun": false,
+  "documentationCheckExitCode": 0,
+  "independentReviews": [
+    "style-a-review.md",
+    "style-b-review.md",
+    "style-c-review.md"
+  ]
+}

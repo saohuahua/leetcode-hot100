@@ -1,0 +1,4128 @@
+{
+  "props": {
+    "pageProps": {
+      "dehydratedState": {
+        "mutations": [],
+        "queries": [
+          {
+            "dehydratedAt": 1790526110125,
+            "state": {
+              "data": {
+                "studyPlanV2Detail": {
+                  "slug": "top-100-liked",
+                  "name": "LeetCode 热题 100",
+                  "highlight": "力扣最受刷题发烧友欢迎的 100 道题",
+                  "staticCoverPicture": "https://pic.leetcode.cn/1690881907-oVEPdc-Top%20100%20Liked%20%F0%9F%91%8C@3-240x240.png",
+                  "colorPalette": "purple",
+                  "threeDimensionUrl": "https://prod.spline.design/CIRL6ffxi8YhxRHW/scene.splinecode",
+                  "description": "站内用户最喜爱的 100 道题\r\n站内最经典的 100 道题\r\n刷题发烧友的必备题单",
+                  "premiumOnly": false,
+                  "needShowTags": false,
+                  "awardDescription": "完成计划所有题目即可获得勋章",
+                  "defaultLanguage": null,
+                  "award": {
+                    "name": "LeetCode 热题 100",
+                    "config": {
+                      "icon": "https://pic.leetcode.cn/1680089086-APIcBz-Top%20100%20Liked.png",
+                      "iconGif": "https://pic.leetcode.cn/1680089092-YHXNUF-Top%20100%20Liked.gif",
+                      "iconGifBackground": "https://aliyun-lc-upload.oss-cn-hangzhou.aliyuncs.com/medals/lccupbg.png"
+                    }
+                  },
+                  "relatedStudyPlans": [
+                    {
+                      "cover": "https://assets.leetcode.cn/aliyun-lc-upload/study_plan_v2/top-interview-150/cover",
+                      "highlight": "最经典 150 题，掌握面试所有知识点",
+                      "name": "面试经典 150 题",
+                      "slug": "top-interview-150",
+                      "premiumOnly": false
+                    },
+                    {
+                      "cover": "https://assets.leetcode.cn/aliyun-lc-upload/study_plan_v2/leetcode-75/cover",
+                      "highlight": "面试必考精华版，75 题覆盖全量考点",
+                      "name": "LeetCode 75",
+                      "slug": "leetcode-75",
+                      "premiumOnly": false
+                    },
+                    {
+                      "cover": "https://assets.leetcode.cn/aliyun-lc-upload/study_plan_v2/premium-algo-100/cover",
+                      "highlight": "会员专享题单 = 包含更多真实面试题",
+                      "name": "尊享面试 100 题",
+                      "slug": "premium-algo-100",
+                      "premiumOnly": true
+                    },
+                    {
+                      "cover": "https://assets.leetcode.cn/aliyun-lc-upload/study_plan_v2/sql-free-50/cover",
+                      "highlight": "数据库面试必会基础知识点全涵盖",
+                      "name": "高频 SQL 50 题（基础版）",
+                      "slug": "sql-free-50",
+                      "premiumOnly": false
+                    },
+                    {
+                      "cover": "https://assets.leetcode.cn/aliyun-lc-upload/study_plan_v2/sql-premium-50/cover",
+                      "highlight": "面试考点全覆盖应对高阶数据库面试",
+                      "name": "高频 SQL 50 题（进阶版）",
+                      "slug": "sql-premium-50",
+                      "premiumOnly": true
+                    }
+                  ],
+                  "planSubGroups": [
+                    {
+                      "slug": "top-100-liked-80-r32o",
+                      "name": "哈希",
+                      "premiumOnly": false,
+                      "questionNum": 3,
+                      "questions": [
+                        {
+                          "translatedTitle": "两数之和",
+                          "titleSlug": "two-sum",
+                          "title": "Two Sum",
+                          "questionFrontendId": "1",
+                          "paidOnly": false,
+                          "id": "1",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "字母异位词分组",
+                          "titleSlug": "group-anagrams",
+                          "title": "Group Anagrams",
+                          "questionFrontendId": "49",
+                          "paidOnly": false,
+                          "id": "49",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "string",
+                              "nameTranslated": "字符串",
+                              "name": "String"
+                            },
+                            {
+                              "slug": "sorting",
+                              "nameTranslated": "排序",
+                              "name": "Sorting"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "最长连续序列",
+                          "titleSlug": "longest-consecutive-sequence",
+                          "title": "Longest Consecutive Sequence",
+                          "questionFrontendId": "128",
+                          "paidOnly": false,
+                          "id": "128",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "union-find",
+                              "nameTranslated": "并查集",
+                              "name": "Union Find"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            }
+                          ],
+                          "solutionInfo": null
+                        }
+                      ]
+                    },
+                    {
+                      "slug": "top-100-liked-81-kor1",
+                      "name": "双指针",
+                      "premiumOnly": false,
+                      "questionNum": 4,
+                      "questions": [
+                        {
+                          "translatedTitle": "移动零",
+                          "titleSlug": "move-zeroes",
+                          "title": "Move Zeroes",
+                          "questionFrontendId": "283",
+                          "paidOnly": false,
+                          "id": "283",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "two-pointers",
+                              "nameTranslated": "双指针",
+                              "name": "Two Pointers"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "盛最多水的容器",
+                          "titleSlug": "container-with-most-water",
+                          "title": "Container With Most Water",
+                          "questionFrontendId": "11",
+                          "paidOnly": false,
+                          "id": "11",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "greedy",
+                              "nameTranslated": "贪心",
+                              "name": "Greedy"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "two-pointers",
+                              "nameTranslated": "双指针",
+                              "name": "Two Pointers"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "三数之和",
+                          "titleSlug": "3sum",
+                          "title": "3Sum",
+                          "questionFrontendId": "15",
+                          "paidOnly": false,
+                          "id": "15",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "two-pointers",
+                              "nameTranslated": "双指针",
+                              "name": "Two Pointers"
+                            },
+                            {
+                              "slug": "sorting",
+                              "nameTranslated": "排序",
+                              "name": "Sorting"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "接雨水",
+                          "titleSlug": "trapping-rain-water",
+                          "title": "Trapping Rain Water",
+                          "questionFrontendId": "42",
+                          "paidOnly": false,
+                          "id": "42",
+                          "difficulty": "HARD",
+                          "topicTags": [
+                            {
+                              "slug": "stack",
+                              "nameTranslated": "栈",
+                              "name": "Stack"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "two-pointers",
+                              "nameTranslated": "双指针",
+                              "name": "Two Pointers"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            },
+                            {
+                              "slug": "monotonic-stack",
+                              "nameTranslated": "单调栈",
+                              "name": "Monotonic Stack"
+                            }
+                          ],
+                          "solutionInfo": null
+                        }
+                      ]
+                    },
+                    {
+                      "slug": "top-100-liked-82-i464",
+                      "name": "滑动窗口",
+                      "premiumOnly": false,
+                      "questionNum": 2,
+                      "questions": [
+                        {
+                          "translatedTitle": "无重复字符的最长子串",
+                          "titleSlug": "longest-substring-without-repeating-characters",
+                          "title": "Longest Substring Without Repeating Characters",
+                          "questionFrontendId": "3",
+                          "paidOnly": false,
+                          "id": "3",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "string",
+                              "nameTranslated": "字符串",
+                              "name": "String"
+                            },
+                            {
+                              "slug": "sliding-window",
+                              "nameTranslated": "滑动窗口",
+                              "name": "Sliding Window"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "找到字符串中所有字母异位词",
+                          "titleSlug": "find-all-anagrams-in-a-string",
+                          "title": "Find All Anagrams in a String",
+                          "questionFrontendId": "438",
+                          "paidOnly": false,
+                          "id": "438",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "string",
+                              "nameTranslated": "字符串",
+                              "name": "String"
+                            },
+                            {
+                              "slug": "sliding-window",
+                              "nameTranslated": "滑动窗口",
+                              "name": "Sliding Window"
+                            }
+                          ],
+                          "solutionInfo": null
+                        }
+                      ]
+                    },
+                    {
+                      "slug": "top-100-liked-83-shuv",
+                      "name": "子串",
+                      "premiumOnly": false,
+                      "questionNum": 3,
+                      "questions": [
+                        {
+                          "translatedTitle": "和为 K 的子数组",
+                          "titleSlug": "subarray-sum-equals-k",
+                          "title": "Subarray Sum Equals K",
+                          "questionFrontendId": "560",
+                          "paidOnly": false,
+                          "id": "560",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "prefix-sum",
+                              "nameTranslated": "前缀和",
+                              "name": "Prefix Sum"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "滑动窗口最大值",
+                          "titleSlug": "sliding-window-maximum",
+                          "title": "Sliding Window Maximum",
+                          "questionFrontendId": "239",
+                          "paidOnly": false,
+                          "id": "239",
+                          "difficulty": "HARD",
+                          "topicTags": [
+                            {
+                              "slug": "queue",
+                              "nameTranslated": "队列",
+                              "name": "Queue"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "sliding-window",
+                              "nameTranslated": "滑动窗口",
+                              "name": "Sliding Window"
+                            },
+                            {
+                              "slug": "monotonic-queue",
+                              "nameTranslated": "单调队列",
+                              "name": "Monotonic Queue"
+                            },
+                            {
+                              "slug": "heap-priority-queue",
+                              "nameTranslated": "堆（优先队列）",
+                              "name": "Heap (Priority Queue)"
+                            },
+                            {
+                              "slug": "range-minimum-maximum-query",
+                              "nameTranslated": "",
+                              "name": "区间最值查询"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "最小覆盖子串",
+                          "titleSlug": "minimum-window-substring",
+                          "title": "Minimum Window Substring",
+                          "questionFrontendId": "76",
+                          "paidOnly": false,
+                          "id": "76",
+                          "difficulty": "HARD",
+                          "topicTags": [
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "string",
+                              "nameTranslated": "字符串",
+                              "name": "String"
+                            },
+                            {
+                              "slug": "sliding-window",
+                              "nameTranslated": "滑动窗口",
+                              "name": "Sliding Window"
+                            }
+                          ],
+                          "solutionInfo": null
+                        }
+                      ]
+                    },
+                    {
+                      "slug": "top-100-liked-84-4cqv",
+                      "name": "普通数组",
+                      "premiumOnly": false,
+                      "questionNum": 5,
+                      "questions": [
+                        {
+                          "translatedTitle": "最大子数组和",
+                          "titleSlug": "maximum-subarray",
+                          "title": "Maximum Subarray",
+                          "questionFrontendId": "53",
+                          "paidOnly": false,
+                          "id": "53",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "divide-and-conquer",
+                              "nameTranslated": "分治",
+                              "name": "Divide and Conquer"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "合并区间",
+                          "titleSlug": "merge-intervals",
+                          "title": "Merge Intervals",
+                          "questionFrontendId": "56",
+                          "paidOnly": false,
+                          "id": "56",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "sorting",
+                              "nameTranslated": "排序",
+                              "name": "Sorting"
+                            },
+                            {
+                              "slug": "quicksort",
+                              "nameTranslated": "",
+                              "name": "快速排序"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "轮转数组",
+                          "titleSlug": "rotate-array",
+                          "title": "Rotate Array",
+                          "questionFrontendId": "189",
+                          "paidOnly": false,
+                          "id": "189",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "math",
+                              "nameTranslated": "数学",
+                              "name": "Math"
+                            },
+                            {
+                              "slug": "two-pointers",
+                              "nameTranslated": "双指针",
+                              "name": "Two Pointers"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "除了自身以外数组的乘积",
+                          "titleSlug": "product-of-array-except-self",
+                          "title": "Product of Array Except Self",
+                          "questionFrontendId": "238",
+                          "paidOnly": false,
+                          "id": "238",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "prefix-sum",
+                              "nameTranslated": "前缀和",
+                              "name": "Prefix Sum"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "缺失的第一个正数",
+                          "titleSlug": "first-missing-positive",
+                          "title": "First Missing Positive",
+                          "questionFrontendId": "41",
+                          "paidOnly": false,
+                          "id": "41",
+                          "difficulty": "HARD",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            }
+                          ],
+                          "solutionInfo": null
+                        }
+                      ]
+                    },
+                    {
+                      "slug": "top-100-liked-85-8wlm",
+                      "name": "矩阵",
+                      "premiumOnly": false,
+                      "questionNum": 4,
+                      "questions": [
+                        {
+                          "translatedTitle": "矩阵置零",
+                          "titleSlug": "set-matrix-zeroes",
+                          "title": "Set Matrix Zeroes",
+                          "questionFrontendId": "73",
+                          "paidOnly": false,
+                          "id": "73",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "matrix",
+                              "nameTranslated": "矩阵",
+                              "name": "Matrix"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "螺旋矩阵",
+                          "titleSlug": "spiral-matrix",
+                          "title": "Spiral Matrix",
+                          "questionFrontendId": "54",
+                          "paidOnly": false,
+                          "id": "54",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "matrix",
+                              "nameTranslated": "矩阵",
+                              "name": "Matrix"
+                            },
+                            {
+                              "slug": "simulation",
+                              "nameTranslated": "模拟",
+                              "name": "Simulation"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "旋转图像",
+                          "titleSlug": "rotate-image",
+                          "title": "Rotate Image",
+                          "questionFrontendId": "48",
+                          "paidOnly": false,
+                          "id": "48",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "math",
+                              "nameTranslated": "数学",
+                              "name": "Math"
+                            },
+                            {
+                              "slug": "matrix",
+                              "nameTranslated": "矩阵",
+                              "name": "Matrix"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "搜索二维矩阵 II",
+                          "titleSlug": "search-a-2d-matrix-ii",
+                          "title": "Search a 2D Matrix II",
+                          "questionFrontendId": "240",
+                          "paidOnly": false,
+                          "id": "240",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "binary-search",
+                              "nameTranslated": "二分查找",
+                              "name": "Binary Search"
+                            },
+                            {
+                              "slug": "divide-and-conquer",
+                              "nameTranslated": "分治",
+                              "name": "Divide and Conquer"
+                            },
+                            {
+                              "slug": "matrix",
+                              "nameTranslated": "矩阵",
+                              "name": "Matrix"
+                            }
+                          ],
+                          "solutionInfo": null
+                        }
+                      ]
+                    },
+                    {
+                      "slug": "top-100-liked-86-vpsb",
+                      "name": "链表",
+                      "premiumOnly": false,
+                      "questionNum": 14,
+                      "questions": [
+                        {
+                          "translatedTitle": "相交链表",
+                          "titleSlug": "intersection-of-two-linked-lists",
+                          "title": "Intersection of Two Linked Lists",
+                          "questionFrontendId": "160",
+                          "paidOnly": false,
+                          "id": "160",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "linked-list",
+                              "nameTranslated": "链表",
+                              "name": "Linked List"
+                            },
+                            {
+                              "slug": "two-pointers",
+                              "nameTranslated": "双指针",
+                              "name": "Two Pointers"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "反转链表",
+                          "titleSlug": "reverse-linked-list",
+                          "title": "Reverse Linked List",
+                          "questionFrontendId": "206",
+                          "paidOnly": false,
+                          "id": "206",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "recursion",
+                              "nameTranslated": "递归",
+                              "name": "Recursion"
+                            },
+                            {
+                              "slug": "linked-list",
+                              "nameTranslated": "链表",
+                              "name": "Linked List"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "回文链表",
+                          "titleSlug": "palindrome-linked-list",
+                          "title": "Palindrome Linked List",
+                          "questionFrontendId": "234",
+                          "paidOnly": false,
+                          "id": "234",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "stack",
+                              "nameTranslated": "栈",
+                              "name": "Stack"
+                            },
+                            {
+                              "slug": "recursion",
+                              "nameTranslated": "递归",
+                              "name": "Recursion"
+                            },
+                            {
+                              "slug": "linked-list",
+                              "nameTranslated": "链表",
+                              "name": "Linked List"
+                            },
+                            {
+                              "slug": "two-pointers",
+                              "nameTranslated": "双指针",
+                              "name": "Two Pointers"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "环形链表",
+                          "titleSlug": "linked-list-cycle",
+                          "title": "Linked List Cycle",
+                          "questionFrontendId": "141",
+                          "paidOnly": false,
+                          "id": "141",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "linked-list",
+                              "nameTranslated": "链表",
+                              "name": "Linked List"
+                            },
+                            {
+                              "slug": "two-pointers",
+                              "nameTranslated": "双指针",
+                              "name": "Two Pointers"
+                            },
+                            {
+                              "slug": "floyds-cycle-finding-algorithm",
+                              "nameTranslated": "",
+                              "name": "Floyd 判圈算法"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "环形链表 II",
+                          "titleSlug": "linked-list-cycle-ii",
+                          "title": "Linked List Cycle II",
+                          "questionFrontendId": "142",
+                          "paidOnly": false,
+                          "id": "142",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "linked-list",
+                              "nameTranslated": "链表",
+                              "name": "Linked List"
+                            },
+                            {
+                              "slug": "two-pointers",
+                              "nameTranslated": "双指针",
+                              "name": "Two Pointers"
+                            },
+                            {
+                              "slug": "floyds-cycle-finding-algorithm",
+                              "nameTranslated": "",
+                              "name": "Floyd 判圈算法"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "合并两个有序链表",
+                          "titleSlug": "merge-two-sorted-lists",
+                          "title": "Merge Two Sorted Lists",
+                          "questionFrontendId": "21",
+                          "paidOnly": false,
+                          "id": "21",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "recursion",
+                              "nameTranslated": "递归",
+                              "name": "Recursion"
+                            },
+                            {
+                              "slug": "linked-list",
+                              "nameTranslated": "链表",
+                              "name": "Linked List"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "两数相加",
+                          "titleSlug": "add-two-numbers",
+                          "title": "Add Two Numbers",
+                          "questionFrontendId": "2",
+                          "paidOnly": false,
+                          "id": "2",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "recursion",
+                              "nameTranslated": "递归",
+                              "name": "Recursion"
+                            },
+                            {
+                              "slug": "linked-list",
+                              "nameTranslated": "链表",
+                              "name": "Linked List"
+                            },
+                            {
+                              "slug": "math",
+                              "nameTranslated": "数学",
+                              "name": "Math"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "删除链表的倒数第 N 个结点",
+                          "titleSlug": "remove-nth-node-from-end-of-list",
+                          "title": "Remove Nth Node From End of List",
+                          "questionFrontendId": "19",
+                          "paidOnly": false,
+                          "id": "19",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "linked-list",
+                              "nameTranslated": "链表",
+                              "name": "Linked List"
+                            },
+                            {
+                              "slug": "two-pointers",
+                              "nameTranslated": "双指针",
+                              "name": "Two Pointers"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "两两交换链表中的节点",
+                          "titleSlug": "swap-nodes-in-pairs",
+                          "title": "Swap Nodes in Pairs",
+                          "questionFrontendId": "24",
+                          "paidOnly": false,
+                          "id": "24",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "recursion",
+                              "nameTranslated": "递归",
+                              "name": "Recursion"
+                            },
+                            {
+                              "slug": "linked-list",
+                              "nameTranslated": "链表",
+                              "name": "Linked List"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "K 个一组翻转链表",
+                          "titleSlug": "reverse-nodes-in-k-group",
+                          "title": "Reverse Nodes in k-Group",
+                          "questionFrontendId": "25",
+                          "paidOnly": false,
+                          "id": "25",
+                          "difficulty": "HARD",
+                          "topicTags": [
+                            {
+                              "slug": "recursion",
+                              "nameTranslated": "递归",
+                              "name": "Recursion"
+                            },
+                            {
+                              "slug": "linked-list",
+                              "nameTranslated": "链表",
+                              "name": "Linked List"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "随机链表的复制",
+                          "titleSlug": "copy-list-with-random-pointer",
+                          "title": "Copy List with Random Pointer",
+                          "questionFrontendId": "138",
+                          "paidOnly": false,
+                          "id": "138",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "linked-list",
+                              "nameTranslated": "链表",
+                              "name": "Linked List"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "排序链表",
+                          "titleSlug": "sort-list",
+                          "title": "Sort List",
+                          "questionFrontendId": "148",
+                          "paidOnly": false,
+                          "id": "148",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "linked-list",
+                              "nameTranslated": "链表",
+                              "name": "Linked List"
+                            },
+                            {
+                              "slug": "two-pointers",
+                              "nameTranslated": "双指针",
+                              "name": "Two Pointers"
+                            },
+                            {
+                              "slug": "divide-and-conquer",
+                              "nameTranslated": "分治",
+                              "name": "Divide and Conquer"
+                            },
+                            {
+                              "slug": "sorting",
+                              "nameTranslated": "排序",
+                              "name": "Sorting"
+                            },
+                            {
+                              "slug": "merge-sort",
+                              "nameTranslated": "归并排序",
+                              "name": "Merge Sort"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "合并 K 个升序链表",
+                          "titleSlug": "merge-k-sorted-lists",
+                          "title": "Merge k Sorted Lists",
+                          "questionFrontendId": "23",
+                          "paidOnly": false,
+                          "id": "23",
+                          "difficulty": "HARD",
+                          "topicTags": [
+                            {
+                              "slug": "linked-list",
+                              "nameTranslated": "链表",
+                              "name": "Linked List"
+                            },
+                            {
+                              "slug": "divide-and-conquer",
+                              "nameTranslated": "分治",
+                              "name": "Divide and Conquer"
+                            },
+                            {
+                              "slug": "heap-priority-queue",
+                              "nameTranslated": "堆（优先队列）",
+                              "name": "Heap (Priority Queue)"
+                            },
+                            {
+                              "slug": "merge-sort",
+                              "nameTranslated": "归并排序",
+                              "name": "Merge Sort"
+                            },
+                            {
+                              "slug": "tournament-sort",
+                              "nameTranslated": "",
+                              "name": "锦标赛排序"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "LRU 缓存",
+                          "titleSlug": "lru-cache",
+                          "title": "LRU Cache",
+                          "questionFrontendId": "146",
+                          "paidOnly": false,
+                          "id": "146",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "design",
+                              "nameTranslated": "设计",
+                              "name": "Design"
+                            },
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "linked-list",
+                              "nameTranslated": "链表",
+                              "name": "Linked List"
+                            },
+                            {
+                              "slug": "doubly-linked-list",
+                              "nameTranslated": "双向链表",
+                              "name": "Doubly-Linked List"
+                            }
+                          ],
+                          "solutionInfo": null
+                        }
+                      ]
+                    },
+                    {
+                      "slug": "top-100-liked-87-nx50",
+                      "name": "二叉树",
+                      "premiumOnly": false,
+                      "questionNum": 15,
+                      "questions": [
+                        {
+                          "translatedTitle": "二叉树的中序遍历",
+                          "titleSlug": "binary-tree-inorder-traversal",
+                          "title": "Binary Tree Inorder Traversal",
+                          "questionFrontendId": "94",
+                          "paidOnly": false,
+                          "id": "94",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "stack",
+                              "nameTranslated": "栈",
+                              "name": "Stack"
+                            },
+                            {
+                              "slug": "tree",
+                              "nameTranslated": "树",
+                              "name": "Tree"
+                            },
+                            {
+                              "slug": "depth-first-search",
+                              "nameTranslated": "深度优先搜索",
+                              "name": "Depth-First Search"
+                            },
+                            {
+                              "slug": "binary-tree",
+                              "nameTranslated": "二叉树",
+                              "name": "Binary Tree"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "二叉树的最大深度",
+                          "titleSlug": "maximum-depth-of-binary-tree",
+                          "title": "Maximum Depth of Binary Tree",
+                          "questionFrontendId": "104",
+                          "paidOnly": false,
+                          "id": "104",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "tree",
+                              "nameTranslated": "树",
+                              "name": "Tree"
+                            },
+                            {
+                              "slug": "depth-first-search",
+                              "nameTranslated": "深度优先搜索",
+                              "name": "Depth-First Search"
+                            },
+                            {
+                              "slug": "breadth-first-search",
+                              "nameTranslated": "广度优先搜索",
+                              "name": "Breadth-First Search"
+                            },
+                            {
+                              "slug": "binary-tree",
+                              "nameTranslated": "二叉树",
+                              "name": "Binary Tree"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "翻转二叉树",
+                          "titleSlug": "invert-binary-tree",
+                          "title": "Invert Binary Tree",
+                          "questionFrontendId": "226",
+                          "paidOnly": false,
+                          "id": "226",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "tree",
+                              "nameTranslated": "树",
+                              "name": "Tree"
+                            },
+                            {
+                              "slug": "depth-first-search",
+                              "nameTranslated": "深度优先搜索",
+                              "name": "Depth-First Search"
+                            },
+                            {
+                              "slug": "breadth-first-search",
+                              "nameTranslated": "广度优先搜索",
+                              "name": "Breadth-First Search"
+                            },
+                            {
+                              "slug": "binary-tree",
+                              "nameTranslated": "二叉树",
+                              "name": "Binary Tree"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "对称二叉树",
+                          "titleSlug": "symmetric-tree",
+                          "title": "Symmetric Tree",
+                          "questionFrontendId": "101",
+                          "paidOnly": false,
+                          "id": "101",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "tree",
+                              "nameTranslated": "树",
+                              "name": "Tree"
+                            },
+                            {
+                              "slug": "depth-first-search",
+                              "nameTranslated": "深度优先搜索",
+                              "name": "Depth-First Search"
+                            },
+                            {
+                              "slug": "breadth-first-search",
+                              "nameTranslated": "广度优先搜索",
+                              "name": "Breadth-First Search"
+                            },
+                            {
+                              "slug": "binary-tree",
+                              "nameTranslated": "二叉树",
+                              "name": "Binary Tree"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "二叉树的直径",
+                          "titleSlug": "diameter-of-binary-tree",
+                          "title": "Diameter of Binary Tree",
+                          "questionFrontendId": "543",
+                          "paidOnly": false,
+                          "id": "543",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "tree",
+                              "nameTranslated": "树",
+                              "name": "Tree"
+                            },
+                            {
+                              "slug": "depth-first-search",
+                              "nameTranslated": "深度优先搜索",
+                              "name": "Depth-First Search"
+                            },
+                            {
+                              "slug": "binary-tree",
+                              "nameTranslated": "二叉树",
+                              "name": "Binary Tree"
+                            },
+                            {
+                              "slug": "dp-on-trees",
+                              "nameTranslated": "",
+                              "name": "树形 DP"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "二叉树的层序遍历",
+                          "titleSlug": "binary-tree-level-order-traversal",
+                          "title": "Binary Tree Level Order Traversal",
+                          "questionFrontendId": "102",
+                          "paidOnly": false,
+                          "id": "102",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "tree",
+                              "nameTranslated": "树",
+                              "name": "Tree"
+                            },
+                            {
+                              "slug": "breadth-first-search",
+                              "nameTranslated": "广度优先搜索",
+                              "name": "Breadth-First Search"
+                            },
+                            {
+                              "slug": "binary-tree",
+                              "nameTranslated": "二叉树",
+                              "name": "Binary Tree"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "将有序数组转换为二叉搜索树",
+                          "titleSlug": "convert-sorted-array-to-binary-search-tree",
+                          "title": "Convert Sorted Array to Binary Search Tree",
+                          "questionFrontendId": "108",
+                          "paidOnly": false,
+                          "id": "108",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "tree",
+                              "nameTranslated": "树",
+                              "name": "Tree"
+                            },
+                            {
+                              "slug": "binary-search-tree",
+                              "nameTranslated": "二叉搜索树",
+                              "name": "Binary Search Tree"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "divide-and-conquer",
+                              "nameTranslated": "分治",
+                              "name": "Divide and Conquer"
+                            },
+                            {
+                              "slug": "binary-tree",
+                              "nameTranslated": "二叉树",
+                              "name": "Binary Tree"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "验证二叉搜索树",
+                          "titleSlug": "validate-binary-search-tree",
+                          "title": "Validate Binary Search Tree",
+                          "questionFrontendId": "98",
+                          "paidOnly": false,
+                          "id": "98",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "tree",
+                              "nameTranslated": "树",
+                              "name": "Tree"
+                            },
+                            {
+                              "slug": "depth-first-search",
+                              "nameTranslated": "深度优先搜索",
+                              "name": "Depth-First Search"
+                            },
+                            {
+                              "slug": "binary-search-tree",
+                              "nameTranslated": "二叉搜索树",
+                              "name": "Binary Search Tree"
+                            },
+                            {
+                              "slug": "binary-tree",
+                              "nameTranslated": "二叉树",
+                              "name": "Binary Tree"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "二叉搜索树中第 K 小的元素",
+                          "titleSlug": "kth-smallest-element-in-a-bst",
+                          "title": "Kth Smallest Element in a BST",
+                          "questionFrontendId": "230",
+                          "paidOnly": false,
+                          "id": "230",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "tree",
+                              "nameTranslated": "树",
+                              "name": "Tree"
+                            },
+                            {
+                              "slug": "depth-first-search",
+                              "nameTranslated": "深度优先搜索",
+                              "name": "Depth-First Search"
+                            },
+                            {
+                              "slug": "binary-search-tree",
+                              "nameTranslated": "二叉搜索树",
+                              "name": "Binary Search Tree"
+                            },
+                            {
+                              "slug": "binary-tree",
+                              "nameTranslated": "二叉树",
+                              "name": "Binary Tree"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "二叉树的右视图",
+                          "titleSlug": "binary-tree-right-side-view",
+                          "title": "Binary Tree Right Side View",
+                          "questionFrontendId": "199",
+                          "paidOnly": false,
+                          "id": "199",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "tree",
+                              "nameTranslated": "树",
+                              "name": "Tree"
+                            },
+                            {
+                              "slug": "depth-first-search",
+                              "nameTranslated": "深度优先搜索",
+                              "name": "Depth-First Search"
+                            },
+                            {
+                              "slug": "breadth-first-search",
+                              "nameTranslated": "广度优先搜索",
+                              "name": "Breadth-First Search"
+                            },
+                            {
+                              "slug": "binary-tree",
+                              "nameTranslated": "二叉树",
+                              "name": "Binary Tree"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "二叉树展开为链表",
+                          "titleSlug": "flatten-binary-tree-to-linked-list",
+                          "title": "Flatten Binary Tree to Linked List",
+                          "questionFrontendId": "114",
+                          "paidOnly": false,
+                          "id": "114",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "stack",
+                              "nameTranslated": "栈",
+                              "name": "Stack"
+                            },
+                            {
+                              "slug": "tree",
+                              "nameTranslated": "树",
+                              "name": "Tree"
+                            },
+                            {
+                              "slug": "depth-first-search",
+                              "nameTranslated": "深度优先搜索",
+                              "name": "Depth-First Search"
+                            },
+                            {
+                              "slug": "linked-list",
+                              "nameTranslated": "链表",
+                              "name": "Linked List"
+                            },
+                            {
+                              "slug": "binary-tree",
+                              "nameTranslated": "二叉树",
+                              "name": "Binary Tree"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "从前序与中序遍历序列构造二叉树",
+                          "titleSlug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+                          "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+                          "questionFrontendId": "105",
+                          "paidOnly": false,
+                          "id": "105",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "tree",
+                              "nameTranslated": "树",
+                              "name": "Tree"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "divide-and-conquer",
+                              "nameTranslated": "分治",
+                              "name": "Divide and Conquer"
+                            },
+                            {
+                              "slug": "binary-tree",
+                              "nameTranslated": "二叉树",
+                              "name": "Binary Tree"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "路径总和 III",
+                          "titleSlug": "path-sum-iii",
+                          "title": "Path Sum III",
+                          "questionFrontendId": "437",
+                          "paidOnly": false,
+                          "id": "437",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "tree",
+                              "nameTranslated": "树",
+                              "name": "Tree"
+                            },
+                            {
+                              "slug": "depth-first-search",
+                              "nameTranslated": "深度优先搜索",
+                              "name": "Depth-First Search"
+                            },
+                            {
+                              "slug": "binary-tree",
+                              "nameTranslated": "二叉树",
+                              "name": "Binary Tree"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "二叉树的最近公共祖先",
+                          "titleSlug": "lowest-common-ancestor-of-a-binary-tree",
+                          "title": "Lowest Common Ancestor of a Binary Tree",
+                          "questionFrontendId": "236",
+                          "paidOnly": false,
+                          "id": "236",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "tree",
+                              "nameTranslated": "树",
+                              "name": "Tree"
+                            },
+                            {
+                              "slug": "depth-first-search",
+                              "nameTranslated": "深度优先搜索",
+                              "name": "Depth-First Search"
+                            },
+                            {
+                              "slug": "binary-tree",
+                              "nameTranslated": "二叉树",
+                              "name": "Binary Tree"
+                            },
+                            {
+                              "slug": "lowest-common-ancestor",
+                              "nameTranslated": "",
+                              "name": "最近公共祖先"
+                            },
+                            {
+                              "slug": "binary-lifting",
+                              "nameTranslated": "",
+                              "name": "Binary Lifting"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "二叉树中的最大路径和",
+                          "titleSlug": "binary-tree-maximum-path-sum",
+                          "title": "Binary Tree Maximum Path Sum",
+                          "questionFrontendId": "124",
+                          "paidOnly": false,
+                          "id": "124",
+                          "difficulty": "HARD",
+                          "topicTags": [
+                            {
+                              "slug": "tree",
+                              "nameTranslated": "树",
+                              "name": "Tree"
+                            },
+                            {
+                              "slug": "depth-first-search",
+                              "nameTranslated": "深度优先搜索",
+                              "name": "Depth-First Search"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            },
+                            {
+                              "slug": "binary-tree",
+                              "nameTranslated": "二叉树",
+                              "name": "Binary Tree"
+                            },
+                            {
+                              "slug": "dp-on-trees",
+                              "nameTranslated": "",
+                              "name": "树形 DP"
+                            }
+                          ],
+                          "solutionInfo": null
+                        }
+                      ]
+                    },
+                    {
+                      "slug": "top-100-liked-88-xwhw",
+                      "name": "图论",
+                      "premiumOnly": false,
+                      "questionNum": 4,
+                      "questions": [
+                        {
+                          "translatedTitle": "岛屿数量",
+                          "titleSlug": "number-of-islands",
+                          "title": "Number of Islands",
+                          "questionFrontendId": "200",
+                          "paidOnly": false,
+                          "id": "200",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "depth-first-search",
+                              "nameTranslated": "深度优先搜索",
+                              "name": "Depth-First Search"
+                            },
+                            {
+                              "slug": "breadth-first-search",
+                              "nameTranslated": "广度优先搜索",
+                              "name": "Breadth-First Search"
+                            },
+                            {
+                              "slug": "union-find",
+                              "nameTranslated": "并查集",
+                              "name": "Union Find"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "matrix",
+                              "nameTranslated": "矩阵",
+                              "name": "Matrix"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "腐烂的橘子",
+                          "titleSlug": "rotting-oranges",
+                          "title": "Rotting Oranges",
+                          "questionFrontendId": "994",
+                          "paidOnly": false,
+                          "id": "1036",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "breadth-first-search",
+                              "nameTranslated": "广度优先搜索",
+                              "name": "Breadth-First Search"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "matrix",
+                              "nameTranslated": "矩阵",
+                              "name": "Matrix"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "课程表",
+                          "titleSlug": "course-schedule",
+                          "title": "Course Schedule",
+                          "questionFrontendId": "207",
+                          "paidOnly": false,
+                          "id": "207",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "depth-first-search",
+                              "nameTranslated": "深度优先搜索",
+                              "name": "Depth-First Search"
+                            },
+                            {
+                              "slug": "breadth-first-search",
+                              "nameTranslated": "广度优先搜索",
+                              "name": "Breadth-First Search"
+                            },
+                            {
+                              "slug": "graph",
+                              "nameTranslated": "图",
+                              "name": "Graph"
+                            },
+                            {
+                              "slug": "topological-sort",
+                              "nameTranslated": "拓扑排序",
+                              "name": "Topological Sort"
+                            },
+                            {
+                              "slug": "directed-acyclic-graph",
+                              "nameTranslated": "",
+                              "name": "有向无环图"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "实现 Trie (前缀树)",
+                          "titleSlug": "implement-trie-prefix-tree",
+                          "title": "Implement Trie (Prefix Tree)",
+                          "questionFrontendId": "208",
+                          "paidOnly": false,
+                          "id": "208",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "design",
+                              "nameTranslated": "设计",
+                              "name": "Design"
+                            },
+                            {
+                              "slug": "trie",
+                              "nameTranslated": "字典树",
+                              "name": "Trie"
+                            },
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "string",
+                              "nameTranslated": "字符串",
+                              "name": "String"
+                            }
+                          ],
+                          "solutionInfo": null
+                        }
+                      ]
+                    },
+                    {
+                      "slug": "top-100-liked-89-8b90",
+                      "name": "回溯",
+                      "premiumOnly": false,
+                      "questionNum": 8,
+                      "questions": [
+                        {
+                          "translatedTitle": "全排列",
+                          "titleSlug": "permutations",
+                          "title": "Permutations",
+                          "questionFrontendId": "46",
+                          "paidOnly": false,
+                          "id": "46",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "backtracking",
+                              "nameTranslated": "回溯",
+                              "name": "Backtracking"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "子集",
+                          "titleSlug": "subsets",
+                          "title": "Subsets",
+                          "questionFrontendId": "78",
+                          "paidOnly": false,
+                          "id": "78",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "bit-manipulation",
+                              "nameTranslated": "位运算",
+                              "name": "Bit Manipulation"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "backtracking",
+                              "nameTranslated": "回溯",
+                              "name": "Backtracking"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "电话号码的字母组合",
+                          "titleSlug": "letter-combinations-of-a-phone-number",
+                          "title": "Letter Combinations of a Phone Number",
+                          "questionFrontendId": "17",
+                          "paidOnly": false,
+                          "id": "17",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "string",
+                              "nameTranslated": "字符串",
+                              "name": "String"
+                            },
+                            {
+                              "slug": "backtracking",
+                              "nameTranslated": "回溯",
+                              "name": "Backtracking"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "组合总和",
+                          "titleSlug": "combination-sum",
+                          "title": "Combination Sum",
+                          "questionFrontendId": "39",
+                          "paidOnly": false,
+                          "id": "39",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "backtracking",
+                              "nameTranslated": "回溯",
+                              "name": "Backtracking"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "括号生成",
+                          "titleSlug": "generate-parentheses",
+                          "title": "Generate Parentheses",
+                          "questionFrontendId": "22",
+                          "paidOnly": false,
+                          "id": "22",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "string",
+                              "nameTranslated": "字符串",
+                              "name": "String"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            },
+                            {
+                              "slug": "backtracking",
+                              "nameTranslated": "回溯",
+                              "name": "Backtracking"
+                            },
+                            {
+                              "slug": "bracket-sequences",
+                              "nameTranslated": "",
+                              "name": "括号序列"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "单词搜索",
+                          "titleSlug": "word-search",
+                          "title": "Word Search",
+                          "questionFrontendId": "79",
+                          "paidOnly": false,
+                          "id": "79",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "depth-first-search",
+                              "nameTranslated": "深度优先搜索",
+                              "name": "Depth-First Search"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "string",
+                              "nameTranslated": "字符串",
+                              "name": "String"
+                            },
+                            {
+                              "slug": "backtracking",
+                              "nameTranslated": "回溯",
+                              "name": "Backtracking"
+                            },
+                            {
+                              "slug": "matrix",
+                              "nameTranslated": "矩阵",
+                              "name": "Matrix"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "分割回文串",
+                          "titleSlug": "palindrome-partitioning",
+                          "title": "Palindrome Partitioning",
+                          "questionFrontendId": "131",
+                          "paidOnly": false,
+                          "id": "131",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "string",
+                              "nameTranslated": "字符串",
+                              "name": "String"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            },
+                            {
+                              "slug": "backtracking",
+                              "nameTranslated": "回溯",
+                              "name": "Backtracking"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "N 皇后",
+                          "titleSlug": "n-queens",
+                          "title": "N-Queens",
+                          "questionFrontendId": "51",
+                          "paidOnly": false,
+                          "id": "51",
+                          "difficulty": "HARD",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "backtracking",
+                              "nameTranslated": "回溯",
+                              "name": "Backtracking"
+                            },
+                            {
+                              "slug": "algorithm-x",
+                              "nameTranslated": "",
+                              "name": "X 算法"
+                            }
+                          ],
+                          "solutionInfo": null
+                        }
+                      ]
+                    },
+                    {
+                      "slug": "top-100-liked-90-eorx",
+                      "name": "二分查找",
+                      "premiumOnly": false,
+                      "questionNum": 6,
+                      "questions": [
+                        {
+                          "translatedTitle": "搜索插入位置",
+                          "titleSlug": "search-insert-position",
+                          "title": "Search Insert Position",
+                          "questionFrontendId": "35",
+                          "paidOnly": false,
+                          "id": "35",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "binary-search",
+                              "nameTranslated": "二分查找",
+                              "name": "Binary Search"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "搜索二维矩阵",
+                          "titleSlug": "search-a-2d-matrix",
+                          "title": "Search a 2D Matrix",
+                          "questionFrontendId": "74",
+                          "paidOnly": false,
+                          "id": "74",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "binary-search",
+                              "nameTranslated": "二分查找",
+                              "name": "Binary Search"
+                            },
+                            {
+                              "slug": "matrix",
+                              "nameTranslated": "矩阵",
+                              "name": "Matrix"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "在排序数组中查找元素的第一个和最后一个位置",
+                          "titleSlug": "find-first-and-last-position-of-element-in-sorted-array",
+                          "title": "Find First and Last Position of Element in Sorted Array",
+                          "questionFrontendId": "34",
+                          "paidOnly": false,
+                          "id": "34",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "binary-search",
+                              "nameTranslated": "二分查找",
+                              "name": "Binary Search"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "搜索旋转排序数组",
+                          "titleSlug": "search-in-rotated-sorted-array",
+                          "title": "Search in Rotated Sorted Array",
+                          "questionFrontendId": "33",
+                          "paidOnly": false,
+                          "id": "33",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "binary-search",
+                              "nameTranslated": "二分查找",
+                              "name": "Binary Search"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "寻找旋转排序数组中的最小值",
+                          "titleSlug": "find-minimum-in-rotated-sorted-array",
+                          "title": "Find Minimum in Rotated Sorted Array",
+                          "questionFrontendId": "153",
+                          "paidOnly": false,
+                          "id": "153",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "binary-search",
+                              "nameTranslated": "二分查找",
+                              "name": "Binary Search"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "寻找两个正序数组的中位数",
+                          "titleSlug": "median-of-two-sorted-arrays",
+                          "title": "Median of Two Sorted Arrays",
+                          "questionFrontendId": "4",
+                          "paidOnly": false,
+                          "id": "4",
+                          "difficulty": "HARD",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "binary-search",
+                              "nameTranslated": "二分查找",
+                              "name": "Binary Search"
+                            },
+                            {
+                              "slug": "divide-and-conquer",
+                              "nameTranslated": "分治",
+                              "name": "Divide and Conquer"
+                            }
+                          ],
+                          "solutionInfo": null
+                        }
+                      ]
+                    },
+                    {
+                      "slug": "top-100-liked-91-0mdi",
+                      "name": "栈",
+                      "premiumOnly": false,
+                      "questionNum": 5,
+                      "questions": [
+                        {
+                          "translatedTitle": "有效的括号",
+                          "titleSlug": "valid-parentheses",
+                          "title": "Valid Parentheses",
+                          "questionFrontendId": "20",
+                          "paidOnly": false,
+                          "id": "20",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "stack",
+                              "nameTranslated": "栈",
+                              "name": "Stack"
+                            },
+                            {
+                              "slug": "string",
+                              "nameTranslated": "字符串",
+                              "name": "String"
+                            },
+                            {
+                              "slug": "bracket-sequences",
+                              "nameTranslated": "",
+                              "name": "括号序列"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "最小栈",
+                          "titleSlug": "min-stack",
+                          "title": "Min Stack",
+                          "questionFrontendId": "155",
+                          "paidOnly": false,
+                          "id": "155",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "stack",
+                              "nameTranslated": "栈",
+                              "name": "Stack"
+                            },
+                            {
+                              "slug": "design",
+                              "nameTranslated": "设计",
+                              "name": "Design"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "字符串解码",
+                          "titleSlug": "decode-string",
+                          "title": "Decode String",
+                          "questionFrontendId": "394",
+                          "paidOnly": false,
+                          "id": "394",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "stack",
+                              "nameTranslated": "栈",
+                              "name": "Stack"
+                            },
+                            {
+                              "slug": "recursion",
+                              "nameTranslated": "递归",
+                              "name": "Recursion"
+                            },
+                            {
+                              "slug": "string",
+                              "nameTranslated": "字符串",
+                              "name": "String"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "每日温度",
+                          "titleSlug": "daily-temperatures",
+                          "title": "Daily Temperatures",
+                          "questionFrontendId": "739",
+                          "paidOnly": false,
+                          "id": "739",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "stack",
+                              "nameTranslated": "栈",
+                              "name": "Stack"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "monotonic-stack",
+                              "nameTranslated": "单调栈",
+                              "name": "Monotonic Stack"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "柱状图中最大的矩形",
+                          "titleSlug": "largest-rectangle-in-histogram",
+                          "title": "Largest Rectangle in Histogram",
+                          "questionFrontendId": "84",
+                          "paidOnly": false,
+                          "id": "84",
+                          "difficulty": "HARD",
+                          "topicTags": [
+                            {
+                              "slug": "stack",
+                              "nameTranslated": "栈",
+                              "name": "Stack"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "monotonic-stack",
+                              "nameTranslated": "单调栈",
+                              "name": "Monotonic Stack"
+                            },
+                            {
+                              "slug": "range-minimum-maximum-query",
+                              "nameTranslated": "",
+                              "name": "区间最值查询"
+                            }
+                          ],
+                          "solutionInfo": null
+                        }
+                      ]
+                    },
+                    {
+                      "slug": "top-100-liked-92-lutp",
+                      "name": "堆",
+                      "premiumOnly": false,
+                      "questionNum": 3,
+                      "questions": [
+                        {
+                          "translatedTitle": "数组中的第K个最大元素",
+                          "titleSlug": "kth-largest-element-in-an-array",
+                          "title": "Kth Largest Element in an Array",
+                          "questionFrontendId": "215",
+                          "paidOnly": false,
+                          "id": "215",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "divide-and-conquer",
+                              "nameTranslated": "分治",
+                              "name": "Divide and Conquer"
+                            },
+                            {
+                              "slug": "quickselect",
+                              "nameTranslated": "快速选择",
+                              "name": "Quickselect"
+                            },
+                            {
+                              "slug": "sorting",
+                              "nameTranslated": "排序",
+                              "name": "Sorting"
+                            },
+                            {
+                              "slug": "heap-priority-queue",
+                              "nameTranslated": "堆（优先队列）",
+                              "name": "Heap (Priority Queue)"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "前 K 个高频元素",
+                          "titleSlug": "top-k-frequent-elements",
+                          "title": "Top K Frequent Elements",
+                          "questionFrontendId": "347",
+                          "paidOnly": false,
+                          "id": "347",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "divide-and-conquer",
+                              "nameTranslated": "分治",
+                              "name": "Divide and Conquer"
+                            },
+                            {
+                              "slug": "bucket-sort",
+                              "nameTranslated": "桶排序",
+                              "name": "Bucket Sort"
+                            },
+                            {
+                              "slug": "counting",
+                              "nameTranslated": "计数",
+                              "name": "Counting"
+                            },
+                            {
+                              "slug": "quickselect",
+                              "nameTranslated": "快速选择",
+                              "name": "Quickselect"
+                            },
+                            {
+                              "slug": "sorting",
+                              "nameTranslated": "排序",
+                              "name": "Sorting"
+                            },
+                            {
+                              "slug": "heap-priority-queue",
+                              "nameTranslated": "堆（优先队列）",
+                              "name": "Heap (Priority Queue)"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "数据流的中位数",
+                          "titleSlug": "find-median-from-data-stream",
+                          "title": "Find Median from Data Stream",
+                          "questionFrontendId": "295",
+                          "paidOnly": false,
+                          "id": "295",
+                          "difficulty": "HARD",
+                          "topicTags": [
+                            {
+                              "slug": "design",
+                              "nameTranslated": "设计",
+                              "name": "Design"
+                            },
+                            {
+                              "slug": "two-pointers",
+                              "nameTranslated": "双指针",
+                              "name": "Two Pointers"
+                            },
+                            {
+                              "slug": "data-stream",
+                              "nameTranslated": "数据流",
+                              "name": "Data Stream"
+                            },
+                            {
+                              "slug": "sorting",
+                              "nameTranslated": "排序",
+                              "name": "Sorting"
+                            },
+                            {
+                              "slug": "heap-priority-queue",
+                              "nameTranslated": "堆（优先队列）",
+                              "name": "Heap (Priority Queue)"
+                            }
+                          ],
+                          "solutionInfo": null
+                        }
+                      ]
+                    },
+                    {
+                      "slug": "top-100-liked-93-mcze",
+                      "name": "贪心算法",
+                      "premiumOnly": false,
+                      "questionNum": 4,
+                      "questions": [
+                        {
+                          "translatedTitle": "买卖股票的最佳时机",
+                          "titleSlug": "best-time-to-buy-and-sell-stock",
+                          "title": "Best Time to Buy and Sell Stock",
+                          "questionFrontendId": "121",
+                          "paidOnly": false,
+                          "id": "121",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "跳跃游戏",
+                          "titleSlug": "jump-game",
+                          "title": "Jump Game",
+                          "questionFrontendId": "55",
+                          "paidOnly": false,
+                          "id": "55",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "greedy",
+                              "nameTranslated": "贪心",
+                              "name": "Greedy"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "跳跃游戏 II",
+                          "titleSlug": "jump-game-ii",
+                          "title": "Jump Game II",
+                          "questionFrontendId": "45",
+                          "paidOnly": false,
+                          "id": "45",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "greedy",
+                              "nameTranslated": "贪心",
+                              "name": "Greedy"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "划分字母区间",
+                          "titleSlug": "partition-labels",
+                          "title": "Partition Labels",
+                          "questionFrontendId": "763",
+                          "paidOnly": false,
+                          "id": "768",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "greedy",
+                              "nameTranslated": "贪心",
+                              "name": "Greedy"
+                            },
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "two-pointers",
+                              "nameTranslated": "双指针",
+                              "name": "Two Pointers"
+                            },
+                            {
+                              "slug": "string",
+                              "nameTranslated": "字符串",
+                              "name": "String"
+                            }
+                          ],
+                          "solutionInfo": null
+                        }
+                      ]
+                    },
+                    {
+                      "slug": "top-100-liked-94-c8ic",
+                      "name": "动态规划",
+                      "premiumOnly": false,
+                      "questionNum": 10,
+                      "questions": [
+                        {
+                          "translatedTitle": "爬楼梯",
+                          "titleSlug": "climbing-stairs",
+                          "title": "Climbing Stairs",
+                          "questionFrontendId": "70",
+                          "paidOnly": false,
+                          "id": "70",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "memoization",
+                              "nameTranslated": "记忆化",
+                              "name": "Memoization"
+                            },
+                            {
+                              "slug": "math",
+                              "nameTranslated": "数学",
+                              "name": "Math"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "杨辉三角",
+                          "titleSlug": "pascals-triangle",
+                          "title": "Pascal's Triangle",
+                          "questionFrontendId": "118",
+                          "paidOnly": false,
+                          "id": "118",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "打家劫舍",
+                          "titleSlug": "house-robber",
+                          "title": "House Robber",
+                          "questionFrontendId": "198",
+                          "paidOnly": false,
+                          "id": "198",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "完全平方数",
+                          "titleSlug": "perfect-squares",
+                          "title": "Perfect Squares",
+                          "questionFrontendId": "279",
+                          "paidOnly": false,
+                          "id": "279",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "breadth-first-search",
+                              "nameTranslated": "广度优先搜索",
+                              "name": "Breadth-First Search"
+                            },
+                            {
+                              "slug": "math",
+                              "nameTranslated": "数学",
+                              "name": "Math"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            },
+                            {
+                              "slug": "knapsack-problem",
+                              "nameTranslated": "",
+                              "name": "背包问题"
+                            },
+                            {
+                              "slug": "complete-knapsack",
+                              "nameTranslated": "",
+                              "name": "完全背包"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "零钱兑换",
+                          "titleSlug": "coin-change",
+                          "title": "Coin Change",
+                          "questionFrontendId": "322",
+                          "paidOnly": false,
+                          "id": "322",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "breadth-first-search",
+                              "nameTranslated": "广度优先搜索",
+                              "name": "Breadth-First Search"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            },
+                            {
+                              "slug": "knapsack-problem",
+                              "nameTranslated": "",
+                              "name": "背包问题"
+                            },
+                            {
+                              "slug": "complete-knapsack",
+                              "nameTranslated": "",
+                              "name": "完全背包"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "单词拆分",
+                          "titleSlug": "word-break",
+                          "title": "Word Break",
+                          "questionFrontendId": "139",
+                          "paidOnly": false,
+                          "id": "139",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "trie",
+                              "nameTranslated": "字典树",
+                              "name": "Trie"
+                            },
+                            {
+                              "slug": "memoization",
+                              "nameTranslated": "记忆化",
+                              "name": "Memoization"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "string",
+                              "nameTranslated": "字符串",
+                              "name": "String"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            },
+                            {
+                              "slug": "brute-force-search",
+                              "nameTranslated": "",
+                              "name": "Brute-Force Search"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "最长递增子序列",
+                          "titleSlug": "longest-increasing-subsequence",
+                          "title": "Longest Increasing Subsequence",
+                          "questionFrontendId": "300",
+                          "paidOnly": false,
+                          "id": "300",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "binary-search",
+                              "nameTranslated": "二分查找",
+                              "name": "Binary Search"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            },
+                            {
+                              "slug": "longest-increasing-subsequence",
+                              "nameTranslated": "",
+                              "name": "最长上升子序列"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "乘积最大子数组",
+                          "titleSlug": "maximum-product-subarray",
+                          "title": "Maximum Product Subarray",
+                          "questionFrontendId": "152",
+                          "paidOnly": false,
+                          "id": "152",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "分割等和子集",
+                          "titleSlug": "partition-equal-subset-sum",
+                          "title": "Partition Equal Subset Sum",
+                          "questionFrontendId": "416",
+                          "paidOnly": false,
+                          "id": "416",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            },
+                            {
+                              "slug": "knapsack-problem",
+                              "nameTranslated": "",
+                              "name": "背包问题"
+                            },
+                            {
+                              "slug": "0-1-knapsack",
+                              "nameTranslated": "",
+                              "name": "0-1 背包"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "最长有效括号",
+                          "titleSlug": "longest-valid-parentheses",
+                          "title": "Longest Valid Parentheses",
+                          "questionFrontendId": "32",
+                          "paidOnly": false,
+                          "id": "32",
+                          "difficulty": "HARD",
+                          "topicTags": [
+                            {
+                              "slug": "stack",
+                              "nameTranslated": "栈",
+                              "name": "Stack"
+                            },
+                            {
+                              "slug": "string",
+                              "nameTranslated": "字符串",
+                              "name": "String"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            },
+                            {
+                              "slug": "bracket-sequences",
+                              "nameTranslated": "",
+                              "name": "括号序列"
+                            }
+                          ],
+                          "solutionInfo": null
+                        }
+                      ]
+                    },
+                    {
+                      "slug": "top-100-liked-95-u30r",
+                      "name": "多维动态规划",
+                      "premiumOnly": false,
+                      "questionNum": 5,
+                      "questions": [
+                        {
+                          "translatedTitle": "不同路径",
+                          "titleSlug": "unique-paths",
+                          "title": "Unique Paths",
+                          "questionFrontendId": "62",
+                          "paidOnly": false,
+                          "id": "62",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "math",
+                              "nameTranslated": "数学",
+                              "name": "Math"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            },
+                            {
+                              "slug": "combinatorics",
+                              "nameTranslated": "组合数学",
+                              "name": "Combinatorics"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "最小路径和",
+                          "titleSlug": "minimum-path-sum",
+                          "title": "Minimum Path Sum",
+                          "questionFrontendId": "64",
+                          "paidOnly": false,
+                          "id": "64",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            },
+                            {
+                              "slug": "matrix",
+                              "nameTranslated": "矩阵",
+                              "name": "Matrix"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "最长回文子串",
+                          "titleSlug": "longest-palindromic-substring",
+                          "title": "Longest Palindromic Substring",
+                          "questionFrontendId": "5",
+                          "paidOnly": false,
+                          "id": "5",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "two-pointers",
+                              "nameTranslated": "双指针",
+                              "name": "Two Pointers"
+                            },
+                            {
+                              "slug": "string",
+                              "nameTranslated": "字符串",
+                              "name": "String"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            },
+                            {
+                              "slug": "manacher",
+                              "nameTranslated": "",
+                              "name": "Manacher 算法"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "最长公共子序列",
+                          "titleSlug": "longest-common-subsequence",
+                          "title": "Longest Common Subsequence",
+                          "questionFrontendId": "1143",
+                          "paidOnly": false,
+                          "id": "1250",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "string",
+                              "nameTranslated": "字符串",
+                              "name": "String"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            },
+                            {
+                              "slug": "longest-common-subsequence",
+                              "nameTranslated": "",
+                              "name": "最长公共子序列"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "编辑距离",
+                          "titleSlug": "edit-distance",
+                          "title": "Edit Distance",
+                          "questionFrontendId": "72",
+                          "paidOnly": false,
+                          "id": "72",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "string",
+                              "nameTranslated": "字符串",
+                              "name": "String"
+                            },
+                            {
+                              "slug": "dynamic-programming",
+                              "nameTranslated": "动态规划",
+                              "name": "Dynamic Programming"
+                            }
+                          ],
+                          "solutionInfo": null
+                        }
+                      ]
+                    },
+                    {
+                      "slug": "top-100-liked-96-et6z",
+                      "name": "技巧",
+                      "premiumOnly": false,
+                      "questionNum": 5,
+                      "questions": [
+                        {
+                          "translatedTitle": "只出现一次的数字",
+                          "titleSlug": "single-number",
+                          "title": "Single Number",
+                          "questionFrontendId": "136",
+                          "paidOnly": false,
+                          "id": "136",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "bit-manipulation",
+                              "nameTranslated": "位运算",
+                              "name": "Bit Manipulation"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "多数元素",
+                          "titleSlug": "majority-element",
+                          "title": "Majority Element",
+                          "questionFrontendId": "169",
+                          "paidOnly": false,
+                          "id": "169",
+                          "difficulty": "EASY",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "hash-table",
+                              "nameTranslated": "哈希表",
+                              "name": "Hash Table"
+                            },
+                            {
+                              "slug": "divide-and-conquer",
+                              "nameTranslated": "分治",
+                              "name": "Divide and Conquer"
+                            },
+                            {
+                              "slug": "counting",
+                              "nameTranslated": "计数",
+                              "name": "Counting"
+                            },
+                            {
+                              "slug": "sorting",
+                              "nameTranslated": "排序",
+                              "name": "Sorting"
+                            },
+                            {
+                              "slug": "boyer-moore-majority-vote-algorithm",
+                              "nameTranslated": "",
+                              "name": "摩尔投票算法"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "颜色分类",
+                          "titleSlug": "sort-colors",
+                          "title": "Sort Colors",
+                          "questionFrontendId": "75",
+                          "paidOnly": false,
+                          "id": "75",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "two-pointers",
+                              "nameTranslated": "双指针",
+                              "name": "Two Pointers"
+                            },
+                            {
+                              "slug": "bubble-sort",
+                              "nameTranslated": "",
+                              "name": "冒泡排序"
+                            },
+                            {
+                              "slug": "sorting",
+                              "nameTranslated": "排序",
+                              "name": "Sorting"
+                            },
+                            {
+                              "slug": "quicksort",
+                              "nameTranslated": "",
+                              "name": "快速排序"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "下一个排列",
+                          "titleSlug": "next-permutation",
+                          "title": "Next Permutation",
+                          "questionFrontendId": "31",
+                          "paidOnly": false,
+                          "id": "31",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "two-pointers",
+                              "nameTranslated": "双指针",
+                              "name": "Two Pointers"
+                            }
+                          ],
+                          "solutionInfo": null
+                        },
+                        {
+                          "translatedTitle": "寻找重复数",
+                          "titleSlug": "find-the-duplicate-number",
+                          "title": "Find the Duplicate Number",
+                          "questionFrontendId": "287",
+                          "paidOnly": false,
+                          "id": "287",
+                          "difficulty": "MEDIUM",
+                          "topicTags": [
+                            {
+                              "slug": "bit-manipulation",
+                              "nameTranslated": "位运算",
+                              "name": "Bit Manipulation"
+                            },
+                            {
+                              "slug": "array",
+                              "nameTranslated": "数组",
+                              "name": "Array"
+                            },
+                            {
+                              "slug": "two-pointers",
+                              "nameTranslated": "双指针",
+                              "name": "Two Pointers"
+                            },
+                            {
+                              "slug": "binary-search",
+                              "nameTranslated": "二分查找",
+                              "name": "Binary Search"
+                            },
+                            {
+                              "slug": "floyds-cycle-finding-algorithm",
+                              "nameTranslated": "",
+                              "name": "Floyd 判圈算法"
+                            },
+                            {
+                              "slug": "pigeonhole-principle",
+                              "nameTranslated": "",
+                              "name": "抽屉原理"
+                            }
+                          ],
+                          "solutionInfo": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              "dataUpdateCount": 1,
+              "dataUpdatedAt": 1790526110125,
+              "error": null,
+              "errorUpdateCount": 0,
+              "errorUpdatedAt": 0,
+              "fetchFailureCount": 0,
+              "fetchFailureReason": null,
+              "fetchMeta": null,
+              "isInvalidated": false,
+              "status": "success",
+              "fetchStatus": "idle"
+            },
+            "queryKey": [
+              "studyPlanDetail",
+              {
+                "slug": "top-100-liked"
+              }
+            ],
+            "queryHash": "[\"studyPlanDetail\",{\"slug\":\"top-100-liked\"}]"
+          }
+        ]
+      },
+      "_nextI18Next": {
+        "initialI18nStore": {
+          "zh": {
+            "common": {
+              "404": {
+                "title": "力扣",
+                "pageNotFound": "页面不存在",
+                "message": "抱歉！我们找不到您想访问的页面..."
+              },
+              "meta": {
+                "title": "",
+                "description": "",
+                "keywords": ""
+              },
+              "home": {
+                "title": "力扣 (LeetCode) 全球极客挚爱的技术成长平台",
+                "description": "海量技术面试题库，拥有算法、数据结构、系统设计等 1000+题目，帮助你高效提升编程技能，轻松拿下世界 IT 名企 Dream Offer。"
+              },
+              "loading": "加载中...",
+              "ok": "好",
+              "cancel": "取消",
+              "confirm": "确认",
+              "update": "更新",
+              "submit": "提交",
+              "more": "更多",
+              "save": "保存",
+              "netFailed": "网络错误",
+              "close": "关闭",
+              "header": {
+                "logo": {
+                  "url": "",
+                  "description": ""
+                },
+                "title": {
+                  "problemset-all": ""
+                },
+                "action": {
+                  "login": {
+                    "text": "",
+                    "url": ""
+                  }
+                }
+              },
+              "conjunctions": {
+                "and": "and",
+                "or": "或"
+              },
+              "pages": {
+                "leetcode": "LeetCode",
+                "explore": "学习",
+                "problems": "题库",
+                "interview": {
+                  "interview": "求职",
+                  "onlineInterview": "在线面试",
+                  "assessment": "Assessment"
+                },
+                "contest": "竞赛",
+                "discuss": "讨论",
+                "store": {
+                  "store": "商店",
+                  "redeem": "力扣周边",
+                  "premium": "Plus 会员",
+                  "shop": "精品商城"
+                },
+                "admin": {
+                  "admin": "管理员",
+                  "library": "题库",
+                  "translation": "翻译",
+                  "operations": "运营管理",
+                  "scores": "点数",
+                  "contribute": "贡献",
+                  "backend": "后台管理",
+                  "twoStepVerification": "二步验证",
+                  "internalContest": "Internal Contest Dashboard",
+                  "contestAdmin": "Contest Cheating Dashboard",
+                  "dangerZone": "Danger Zone",
+                  "review": "Review",
+                  "contestDashboard": "Contest Dashboard"
+                },
+                "mobileApp": "下载 App",
+                "playground": "Playground",
+                "myPlayground": "我的 Playground",
+                "signIn": "登录",
+                "register": "注册",
+                "signOut": "退出"
+              },
+              "userMenu": {
+                "renew": "续订",
+                "getPremium": "升级 Plus 会员享专属特权",
+                "tryNewFeatures": "体验新功能",
+                "orders": "订单",
+                "resume": "个人资料",
+                "translateQuestions": "题目以中文展示",
+                "translateQuestionsEn": "题目以英文显示",
+                "enterprise": "企业招聘",
+                "revertToOldVersion": "经典模式",
+                "categories": {
+                  "myList": "收藏夹",
+                  "notebook": "笔记本",
+                  "submissions": "我的题解",
+                  "session": "进度管理",
+                  "points": "积分",
+                  "progress": "进展分析"
+                },
+                "unmockUser": "退出 Mock User",
+                "account": "账号设置",
+                "appearance": "外观",
+                "appearanceContent": {
+                  "auto": "跟随系统",
+                  "light": "浅色",
+                  "dark": "深色"
+                }
+              },
+              "streakCounter": {
+                "finished": "干得好！明天再来挑战！",
+                "unfinished": "解决今天的「每日 1 题」，刷新你的连胜记录！",
+                "buyTimeTravelTicket": "购买补签卡",
+                "missedOneDayThisMonth": "这个月你错过了 1 天。",
+                "missedDaysThisMonth": "这个月你错过了 {{count}} 天。"
+              },
+              "playground": {
+                "playground": "Playground",
+                "remainingPlaygrounds": "数量",
+                "renew": "升级",
+                "myPlaygrounds": "我的 Playgrounds",
+                "templates": {
+                  "consoleApplication": "控制台程序",
+                  "empty": "空白 Playground",
+                  "frontend": "前端程序",
+                  "machineLearning": "机器学习"
+                }
+              },
+              "links": {
+                "admin": {
+                  "scores": "/library/scores",
+                  "translation": "/contribution/translation/question/admin/",
+                  "operations": "/management"
+                },
+                "premium": "/premium",
+                "discuss": "/discuss",
+                "interview": "/company",
+                "shop": "https://detail.youzan.com/show/goods/newest?alias=271n43vr9hen7",
+                "onlineInterview": "https://leetcode.cn/interview",
+                "profileArticles": "/profile/articles",
+                "tryNewFeatures": "/new/",
+                "orders": "/settings/orders",
+                "explore": "/leetbook",
+                "resume": "/settings/profile",
+                "playground": "/playground",
+                "assessment": "/assessment/",
+                "account": "/settings"
+              },
+              "pagination": {
+                "perpage": " 条/页"
+              },
+              "expand": "展开",
+              "collapse": "收起",
+              "difficulty": {
+                "easy": "简单",
+                "medium": "中等",
+                "hard": "困难"
+              },
+              "data": {
+                "question": {
+                  "difficulty": {
+                    "easy": "简单",
+                    "medium": "中等",
+                    "hard": "困难"
+                  }
+                }
+              },
+              "markdown": {
+                "heading": "heading",
+                "quote": "Quote"
+              },
+              "mentions": {
+                "users": "用户",
+                "problems": "题目"
+              },
+              "confirmModal": {
+                "title": "确定执行此操作?",
+                "confirmBtn": "确定",
+                "cancelBtn": "取消"
+              },
+              "saving": "保存中...",
+              "saved": "保存成功",
+              "autoSaved": "已自动保存",
+              "loginRequired": "您尚未登录",
+              "verifiedRequired": "请绑定手机号或者邮箱后继续操作",
+              "phoneVerifiedRequired": "请绑定手机号后继续操作",
+              "maybeVerifiedRequired": "请绑定手机号后继续操作",
+              "copy": "复制",
+              "copyToEditor": "复制到编辑器",
+              "copied": "已复制",
+              "copyLink": "复制链接",
+              "zoomIn": "放大",
+              "zoomOut": "缩小",
+              "zoomReset": "适应窗口",
+              "viewMore": "查看更多",
+              "viewLess": "收起",
+              "viewDetails": "查看详情",
+              "code": "代码",
+              "diagram": "图表",
+              "loadingDiagram": "加载图表中...",
+              "diagramError": "图表加载失败",
+              "openDiagram": "打开",
+              "dailyCheckIn": "+1 每日登录",
+              "//maybeVerifiedRequired": "maybeVerifiedRequired means email in LCUS and phone in LCCN",
+              "easterEgg": {
+                "rewardMessage": "恭喜您获得了 10 积分，Happy LeetCoding!"
+              },
+              "survey": {
+                "veryDissatisfied": "非常不满意",
+                "verySatisfied": "非常满意",
+                "next": "下一题",
+                "continue": "继续",
+                "submit": "提交",
+                "questionNo": "问卷题目 {{current}}/{{total}}",
+                "thanksMsg": "🎉 感谢您的反馈!"
+              },
+              "qdNav": {
+                "backTitle": "题库",
+                "expandPanel": "展开面板",
+                "expandNamePanel": "展开{{listName}}列表",
+                "preQuestion": "上一题",
+                "nextQuestion": "下一题",
+                "next": "下一题",
+                "prev": "上一题",
+                "pickOne": "随机一题",
+                "openInNewTab": "在新的标签页打开"
+              },
+              "premiumModal": {
+                "learnMore": "了解更多权益",
+                "subscribe": "升级 Plus 会员"
+              },
+              "truncatedContent": {
+                "viewAll": "查看全部",
+                "viewLess": "收起",
+                "openRaw": "打开源码",
+                "showMore": "显示更多",
+                "showLess": "显示更少"
+              },
+              "chromeNotSupport": "当前浏览器版本较低，可能导致部分功能无法正常使用。建议升级至最新版本，享受更流畅的体验。",
+              "lcAppWebviewNotSupport": "检测到当前内置浏览器版本过低，可能无法正常预览页面。您可以复制链接并在浏览器中打开查看。",
+              "medal": {
+                "metadataTitle": "勋章 - 力扣（LeetCode）",
+                "congratulation": "恭喜获得",
+                "genPoster": "生成海报",
+                "genPostering": "生成中...",
+                "saveImgMobile": "长按图片保存",
+                "saveImgPc": "右键保存图片",
+                "medalEmpty": "暂无可领取的勋章"
+              },
+              "recordEventType": {
+                "start": "开始",
+                "switchQuestion": "切换问题",
+                "switchLang": "切换语言",
+                "pageVisible": "切换页面",
+                "interpretCode": "运行代码",
+                "submitCode": "提交代码",
+                "end": "结束",
+                "input": "输入",
+                "undo": "撤销",
+                "redo": "重做",
+                "paste": "外部粘贴",
+                "changeCursor": "改变光标",
+                "debug": "调试",
+                "debugEnd": "结束调试"
+              },
+              "codeReplay": {
+                "title": "代码回放",
+                "redirectContent": "此非力扣中国用户，前往 leetcode.com 查看详情?",
+                "doNotShowAgain": "不再提示",
+                "eventHistory": "回放事件",
+                "skipInactive": "跳过空白",
+                "skipInactiveOn": "跳过空闲时间",
+                "skipInactiveOff": "完整回放",
+                "inactiveDuration": "空闲 {{seconds}} 秒",
+                "noCodeResults": "没有代码结果",
+                "size": "大小",
+                "chars": "字符",
+                "leaveContestPageN": "离开竞赛作答页",
+                "returnContestPage": "回到竞赛作答页",
+                "speed": "播放速度",
+                "showEventsIndicator": "显示事件定位点",
+                "settings": "设定",
+                "toggleEventList": "切换显示事件列表"
+              },
+              "anonymousUser": "匿名用户",
+              "verified": "已认证",
+              "phonePlaceholder": "请输入手机号",
+              "searchPlaceholder": "搜索...",
+              "noResults": "未找到结果",
+              "signIn": "登录",
+              "block": "拉黑",
+              "unblock": "解除拉黑",
+              "blockDescription": "对方将无法关注你，无法查看或回复你的主页、帖子、题解和评论，也无法与你互动。对方不会收到被拉黑的通知。你也不会再看到对方的帖子、题解和评论。",
+              "notificationV2": {
+                "tab": {
+                  "social": "社交",
+                  "updates": "系统",
+                  "events": "活动"
+                },
+                "markAllRead": "全部已读",
+                "settings": "通知设置",
+                "viewAll": "全部通知",
+                "legacyEntry": "更早的通知",
+                "pageTitle": "通知",
+                "metaTitle": "通知 - 力扣 (LeetCode) 全球极客挚爱的技术成长平台"
+              }
+            },
+            "new-study-plan": {
+              "detail": {
+                "metadata": {
+                  "title": "{{plan}} - 学习计划 - 力扣（LeetCode）全球极客挚爱的技术成长平台",
+                  "description": "学习计划 - 力扣（LeetCode）全球极客挚爱的技术成长平台",
+                  "notFound": "未找到学习计划"
+                },
+                "weekTextAbbr": {
+                  "sun": "周日",
+                  "mon": "周一",
+                  "tue": "周二",
+                  "wed": "周三",
+                  "thu": "周四",
+                  "fri": "周五",
+                  "sat": "周六"
+                },
+                "weekText": {
+                  "sun": "周日",
+                  "mon": "周一",
+                  "tue": "周二",
+                  "wed": "周三",
+                  "thu": "周四",
+                  "fri": "周五",
+                  "sat": "周六"
+                },
+                "myPlan": "我的计划",
+                "problemLeft": "题待完成",
+                "problemsLeft": "题待完成",
+                "notification": "注意",
+                "setUpSp": "设置学习计划",
+                "solvedText": "完成",
+                "problem": "题",
+                "problems": "题",
+                "learnMore": "更多信息",
+                "you": "你",
+                "weeklyRanking": "周榜",
+                "weeklyRankingToolTip": "按本周完成题目数计算排名，若干小时更新一次榜单数据（若本周未完成任何计划内题目，不计算排名）",
+                "solvePrev": "以下时间每天完成",
+                "solveNext": "道题",
+                "startTitle": "设置学习计划",
+                "confirmStartText": "计划保存后不可修改哦，确定保存吗？",
+                "quitTypeTipPrev": "请输入本计划标题：",
+                "quitTypeTipNext": " ",
+                "subscribeToUnlock": "升级 Plus 会员",
+                "subscribeToUnlockContent": "升级到 Plus 会员，可解锁该学习计划",
+                "start": "开始",
+                "share": "分享",
+                "backToExplore": "返回学习计划",
+                "goCurrentPage": "重新尝试该计划",
+                "premiumTip": "开通会员",
+                "copyLink": "复制链接",
+                "copiedSuccess": "已复制分享链接",
+                "more": "更多",
+                "quit": "退出",
+                "back": "返回",
+                "quitTitle": "关闭学习计划",
+                "quitContent": "当关闭此学习计划时，所有已解决的问题都会被重置，且无法恢复进度。你确定你要关闭吗？",
+                "showTags": "显示标签",
+                "summary": "概述",
+                "showMore": "展开",
+                "showLess": "收起",
+                "award": "勋章",
+                "awardCongratulation": "太棒啦！你已经获得此勋章",
+                "related": "相关计划",
+                "viewMore": "查看更多",
+                "todo": "待完成",
+                "attempted": "尝试过",
+                "solved": "已解答",
+                "markAsSolved": "标记为已解决",
+                "markAsSolvedTip": "你以前曾解决过这道题目，是否将其 '标记为已解决' ？",
+                "difficulty": "难度",
+                "congratulation": "🎉 恭喜你！",
+                "solvedAllProblemsText": "你已经解决了 {{title}} 中的所有问题！",
+                "checkBadge": "前往您的",
+                "profilePage": "个人主页",
+                "wearGlory": "并佩戴勋章！",
+                "checkMyStudyPlan": "回到我的学习计划",
+                "joinSuccessfully": "已加入",
+                "quitSuccessfully": "已退出",
+                "setSuccessfully": "已设置",
+                "errorTip": "遇到些问题，请再次尝试",
+                "quitTip": "若您退出该学习计划，所有已解决的问题都将被重置，且无法恢复。",
+                "pastSolved": "解答过",
+                "solution": "题解",
+                "points": "分",
+                "ranking": "排名"
+              },
+              "list": {
+                "metadata": {
+                  "title": "学习计划 - 在 LeetCode 上持续练习来获得面试的成功"
+                },
+                "title": "学习计划",
+                "ongoing": "进行中",
+                "myPlan": "我的学习计划",
+                "featured": "精选",
+                "showMore": "展开",
+                "revertOldPlan": "查看旧版的学习计划",
+                "revertOldPlanTipTitle": "🌟 返回到旧版的学习计划",
+                "revertOldPlanTipDesc": "你可以点击该按钮前往旧版的学习计划",
+                "cancel": "取消",
+                "iSee": "知道了"
+              },
+              "myStudyPlan": {
+                "metadata": {
+                  "title": "我的学习计划 - 力扣 (LeetCode) 全球极客挚爱的技术成长平台",
+                  "desc": "加入到该学习计划可以追踪你的做题进度，有效地获得能力的提升！"
+                },
+                "title": "我的学习计划",
+                "ongoing": "进行中",
+                "history": "已结束的计划",
+                "noOngoingPlan": "暂无进行中的计划",
+                "noHistoryPlan": "暂无已结束的计划"
+              },
+              "common": {
+                "studyPlan": "学习计划",
+                "tryNow": "立即开启",
+                "noThanks": "暂不尝试",
+                "newPlan": "✨ 全新的学习计划！",
+                "newPlanDesc": "加入一个新的学习计划，最大限度地发挥你的学习潜力。追踪你的进展，专注于每天的问题，以取得持续增长",
+                "seeAll": "查看更多",
+                "totalProgress": "完成进度",
+                "totalScore": "得分",
+                "progress": "完成进度",
+                "completed": "完成时间",
+                "giveUp": "退出时间",
+                "ongoing": "进行中",
+                "ongoingStudyPlan": "进行中的学习计划",
+                "later": "暂不参与",
+                "joinInQDTitle": "是否开始该学习计划？",
+                "joinInQD": "加入到该学习计划可以追踪你的做题进度，有效地获得能力的提升！",
+                "doNotRemind": "今天不再提示",
+                "exploreButton": "探索学习计划",
+                "notFoundText": "抱歉，无法找到该网页，请检查你的输入内容或重新探索一个新的学习计划"
+              },
+              "survey": {
+                "submit": "提交"
+              },
+              "satisfactionSurvey": {
+                "submitBtnText": "提交"
+              }
+            },
+            "progress-calendar": {
+              "dailyChallenge": "每日 1 题",
+              "thisMonth": "本月",
+              "fill": "补",
+              "redeem": "兑换",
+              "rules": "活动规则",
+              "rule": "规则",
+              "timeTravelTicket": "补卡券",
+              "markRules": "打卡规则",
+              "remarkRules": "补卡规则",
+              "guideline": "注意事项",
+              "markRuleOptions": {
+                "option1": {
+                  "title": "找到「每日 1 题」",
+                  "desc": "每天 0 点，题库页列表第 1 页置顶更新当天打卡题目。"
+                },
+                "option2": {
+                  "title": "提交当日打卡",
+                  "desc": "成功提交则记为完成打卡，并获得 10 力扣积分。若这道题之前做过，需在打卡当天重新提交解答。"
+                },
+                "option3": {
+                  "title": "完成整月打卡，获得勋章",
+                  "desc": "完成整月「每日 1 题」打卡，可额外获得 全勤 100 力扣积分及「月度打卡勋章」。"
+                }
+              },
+              "remarkRuleOptions": {
+                "option1": {
+                  "title": "积分兑换补卡券",
+                  "desc": "日历点击「兑换」或直接前往力扣商店兑换补卡券，每月可兑 3 张。"
+                },
+                "option2": {
+                  "title": "找到补卡题目",
+                  "desc": "点击日历中缺卡的日期直接进入缺卡题目进行做题。补卡券使用范围：任意一道缺卡题目。"
+                },
+                "option3": {
+                  "title": "完成补卡，达成全勤成就",
+                  "desc": "成功提交缺卡题目，并确认使用补卡券。若补卡后完成整月打卡，可获得「月度打卡勋章」。"
+                }
+              },
+              "markGuideline": {
+                "option1": "每日打卡 10 积分将在完成任务后实时发放；",
+                "option2": "整月打卡 100 积分奖励在每月最后 1 天完成打卡任务时发放。",
+                "option3": "每月最后 1 天完成整月打卡后发放勋章，也可以在「个人主页」查看确认；",
+                "option4": "补卡后完成整月打卡即可获得勋章，可在「个人主页」查看确认。",
+                "option5": "Plus 会员每周可额外打卡一题。提交通过后，将获得 35 个积分。"
+              },
+              "remarkGuideline": {
+                "option1": "当月兑换的补卡券仅限当月使用，次月失效；",
+                "option2": "补卡券兑换时间：每月 第 1 天 0:00 至 最后一天 23:00；",
+                "option3": "补卡后达成全勤成就，可获得月度打卡勋章，但无全勤 100 积分奖励。",
+                "option4": "After using time travel ticket to complete a problem, you can earn the 10 LeetCoins for completing the problem. However, you’ll not be qualified to earn additional LeetCoins for completing the entire challenge."
+              },
+              "rightText": "该活动解释权在法律规定范围内归力扣所有"
+            },
+            "problemlist": {
+              "metadata": {
+                "defaultTitle": "题单 - 力扣（LeetCode）全球极客挚爱的技术成长平台",
+                "title": "{{title}} - 力扣（LeetCode）全球极客挚爱的技术成长平台"
+              },
+              "tags": "Tags",
+              "todo": "待完成",
+              "attempted": "尝试过",
+              "solved": "已解答",
+              "move": "拖动排序",
+              "removeFromList": "移除",
+              "addToList": "添加至题单",
+              "moveToTop": "置顶",
+              "moveToBottom": "置底",
+              "nullList": "Oops, 该题单不存在！",
+              "privateList": "该题单已设为私密",
+              "noQuestions": "暂无题目",
+              "noSearchResult": "无搜索结果",
+              "goToProblemSet": "前往题库",
+              "difficulty": {
+                "easy": "简单",
+                "medium": "中等",
+                "hard": "困难"
+              },
+              "nullText": "暂无搜索结果",
+              "acceptance": "通过率",
+              "point": "分",
+              "nav-panel": {
+                "title": "我的题单",
+                "fold": "折叠",
+                "unfold": "展开",
+                "createdByMe": "我创建的",
+                "savedByMe": "我收藏的",
+                "public": "公开",
+                "private": "私密",
+                "remove": "取消收藏",
+                "listInvalid": "题单已失效",
+                "newList": "创建题单",
+                "newSmartList": "生成智能题单...",
+                "smartList": "智能题单",
+                "studyPlan": "学习计划",
+                "discuss": "讨论",
+                "oldLibrary": "题库",
+                "library": "题目",
+                "myList": "我的题单",
+                "oldMyList": "我创建的",
+                "mySaved": "我收藏的",
+                "quest": "探险模式",
+                "project": "项目"
+              },
+              "description": {
+                "cover": {
+                  "editCover": "修改封面",
+                  "emojis": "表情符号",
+                  "image": "自定义",
+                  "random": "随机一图",
+                  "background": "背景色",
+                  "chooseBackground": "请选择背景色",
+                  "Recommend": "推荐",
+                  "Smileys & Emotion": "表情",
+                  "People & Body": "角色",
+                  "Animals & Nature": "动物与自然",
+                  "Food & Drink": "食物与饮品",
+                  "Activities": "活动",
+                  "Travel & Places": "旅行与景点",
+                  "Objects": "物品",
+                  "Symbols": "符号",
+                  "Flags": "旗帜",
+                  "uploadImage": "上传图片",
+                  "uploadRecommendedSize": "建议尺寸为 200 x 200 像素",
+                  "uploadSizeLimit": "每个文件的最大尺寸为 5 MB",
+                  "cancel": "取消",
+                  "save": "保存"
+                },
+                "operations": {
+                  "updated": "更新时间：",
+                  "noQuestions": "暂无题目",
+                  "questions": "题",
+                  "public": "公开",
+                  "makePublic": "设为公开",
+                  "private": "私密",
+                  "makePrivate": "设为私密",
+                  "publicToast": "题单已公开",
+                  "privateToast": "已设为私密",
+                  "practice": "开始练习",
+                  "random": "随机一题",
+                  "listSave": "收藏",
+                  "listSaved": "已收藏",
+                  "listSavedByCount": "人收藏",
+                  "listSavedToast": "已收藏",
+                  "listUnsavedToast": "已取消收藏",
+                  "share": "分享",
+                  "fork": "Fork",
+                  "forkToast": "题单已 Fork!",
+                  "more": "更多",
+                  "delete": "删除",
+                  "deleteList": "删除题单",
+                  "deleteAlert": "您确定要删除此题单吗？本操作无法撤销。",
+                  "cancel": "取消",
+                  "create": "创建",
+                  "created": "已创建",
+                  "addQuestions": "添加题目",
+                  "addToList": "添加到题单",
+                  "hasSelected": "已选 {{count}} 题",
+                  "genSmartList": "生成智能题单",
+                  "createNewList": "创建新题单",
+                  "updateRuleQuestionTip": "已包含 {{count}} 道题，将根据所选条件自动更新",
+                  "updateRuleQuestionsTip": "已包含 {{count}} 道题，将根据所选条件自动更新",
+                  "editRule": "设置规则",
+                  "addRules": "添加规则",
+                  "editRuleDesc": "添加难度、知识点等多维条件，按需定制你的专属题集",
+                  "setCondition": "设置条件",
+                  "acceptDelete": "确定",
+                  "deleteToast": "题单已删除",
+                  "edit": "编辑",
+                  "editListInfo": "编辑题单信息",
+                  "title": "标题",
+                  "titlePlaceholder": "请输入题单名称",
+                  "description": "描述",
+                  "descriptionPlaceholder": "请简述本题单内容主题，例如：收集有趣的动态规划题",
+                  "save": "保存",
+                  "infoSavedToast": "保存成功！",
+                  "clickToReadMore": "点击查看全文",
+                  "nonLoggedInDialog": {
+                    "saveTitle": "收藏题单",
+                    "saveContent": "登录后即可收藏题单",
+                    "forkTitle": "Fork 题单",
+                    "forkContent": "登录后即可 fork 题单",
+                    "notNow": "以后再说",
+                    "logIn": "登录"
+                  },
+                  "confirmPlusDialogTitle": "升级 Plus 会员",
+                  "confirmPlusDialogContent1": "本智能题单含会员专享筛选条件，需升级为会员才能使用。",
+                  "confirmPlusDialogContent2": "若会员失效后编辑规则，会员专享筛选条件将会被清除。",
+                  "confirmPlusEditRulesDialogBtn": "编辑规则",
+                  "confirmPlusDialogBtn": "升级 Plus 会员"
+                },
+                "progress": {
+                  "progress": "进度",
+                  "resetProgress": "重置进度",
+                  "resetAlert": "重置后，本题单进度将被清除（不影响题库或其他题单）。确定重置吗？此操作不可撤销。",
+                  "cancel": "取消",
+                  "reset": "确定",
+                  "resetToast": "进度已重置",
+                  "easy": "简单",
+                  "medium": "中等",
+                  "hard": "困难",
+                  "solved": "已解答",
+                  "acceptance": "通过率",
+                  "beats": "击败比例",
+                  "attempting": "尝试过",
+                  "checkReset": "同时清除代码编辑器草稿"
+                }
+              },
+              "company": {
+                "nullList": "Oops, 该企业不存在！",
+                "subscribeText1": "升级至 Plus 会员",
+                "subscribeText2": "解锁更多企业高频面试题。",
+                "subscribe": "升级 Plus 会员",
+                "learnMore": "查看权益",
+                "freeQuestion": "免费高频面试题",
+                "claim": "领取",
+                "claiming": "领取中…",
+                "saved": "已收藏",
+                "savedByCount": "人收藏",
+                "updated": "更新时间：",
+                "description": "简介",
+                "filter": "筛选",
+                "status": "状态",
+                "todo": "未开始",
+                "attempted": "尝试过",
+                "solved": "已解答",
+                "difficulty": "难度",
+                "easy": "简单",
+                "medium": "中等",
+                "hard": "困难",
+                "role": "岗位",
+                "rolePlaceholder": "请选择",
+                "reset": "清空筛选",
+                "tags": "标签",
+                "showTags": "显示标签",
+                "frequency": "出题频率",
+                "discuss": "讨论",
+                "chanceUsedUp": "免费机会已用完，升级 Plus 会员获取更多高频面试题。",
+                "subscribeNow": "升级会员",
+                "claimSignIn": "登录后领取 1 道面试题。",
+                "signIn": "登录",
+                "clickToReadMore": "点击查看详情",
+                "interviewTime": "面试时间",
+                "interviewTimeTip": "题单进度与当前所选面试时间相关",
+                "frequencyTip": "按出题频率倒序排列",
+                "ok": "好的",
+                "subscribeFrequency": "升级 Plus 会员查看出题频率"
+              },
+              "points": "分",
+              "filter": {
+                "difficulty": "难度",
+                "status": "状态",
+                "list": "题单",
+                "tag": "标签",
+                "tagSearch": "筛选标签",
+                "expand": "展开",
+                "collapse": "收起",
+                "reset": "重置",
+                "searchPlaceholder": "搜索题目、编号或内容",
+                "noResult": "暂无搜索结果",
+                "search": "搜索",
+                "filter": "筛选",
+                "filtered": "已筛选",
+                "showSaveAsSmartListBtn": "保存为智能题单",
+                "match": "匹配",
+                "matchTitle": "过滤条件：",
+                "is": "等于",
+                "not": "不等于",
+                "range": "介于",
+                "past": "过去",
+                "all": "所有",
+                "any": "任一",
+                "days": "天",
+                "including": "Plus 内容",
+                "excluding": "非 Plus 内容",
+                "filterName": {
+                  "frequency": "出题频率",
+                  "companies": "企业",
+                  "position": "岗位",
+                  "positionLevel": "职级",
+                  "status": "状态",
+                  "difficulty": "难度",
+                  "topics": "知识点",
+                  "lang": "语言",
+                  "acceptance": "通过率",
+                  "lastSubmit": "最近提交时间",
+                  "published": "题目发布时间",
+                  "premium": "Plus 内容",
+                  "questionId": "题号",
+                  "contestPoint": "竞赛分"
+                },
+                "filterNameAbbr": {
+                  "frequency": "出题频率",
+                  "companies": "企业",
+                  "position": "岗位",
+                  "positionLevel": "职级",
+                  "status": "状态",
+                  "difficulty": "难度",
+                  "topics": "知识点",
+                  "lang": "语言",
+                  "acceptance": "通过率",
+                  "lastSubmit": "最近提交",
+                  "published": "发布",
+                  "premium": "Plus",
+                  "frontendId": "题号",
+                  "contestPoint": "竞赛分"
+                },
+                "premiumTooltip": {
+                  "frequency": "升级 Plus 会员筛选出题频率",
+                  "companies": "升级 Plus 会员筛选企业",
+                  "position": "升级 Plus 会员筛选岗位",
+                  "positionLevel": "升级 Plus 会员筛选职级",
+                  "contestPoint": "升级 Plus 会员筛选竞赛分"
+                },
+                "sort": {
+                  "custom": "默认排序",
+                  "frequency": "出题频率",
+                  "difficulty": "难度",
+                  "ac_rate": "通过率",
+                  "contest_point": "竞赛分",
+                  "frontend_id": "题号",
+                  "last_submitted_time": "最近提交时间",
+                  "premiumOnlyTip_frequency": "升级 Plus 会员筛选出题频率",
+                  "premiumOnlyTip_contest_point": "升级 Plus 会员筛选竞赛分",
+                  "tooltip": {
+                    "custom": "默认排序",
+                    "frequency": "按出题频率排序",
+                    "difficulty": "按难度排序",
+                    "ac_rate": "按通过率排序",
+                    "contest_point": "按竞赛分排序",
+                    "frontend_id": "按题号排序",
+                    "last_submitted_time": "按最近提交时间排序"
+                  }
+                },
+                "random": "随机一题",
+                "addQuestionsToListTip_one": "将 {{count}} 题添加至题单",
+                "addQuestionsToListTip_other": "将 {{count}} 题添加至题单",
+                "backToTop": "回到顶部",
+                "totalNum_one": "{{count}} 题",
+                "totalNum_other": "{{count}} 题",
+                "searchPlaceholderNew": "搜索题目",
+                "addQuestionsToListConfirm": "添加至题单",
+                "addQuestionsToListConfirmInfo1": "确定将 ",
+                "addQuestionsToListConfirmInfo2": " 题添加至 ",
+                "addQuestionsToListConfirmInfo3": " 吗？",
+                "addQuestionsToListConfirmTip": "此操作无法撤销。",
+                "leet": {
+                  "placeholder": "让 Leet 帮你找下一道题…",
+                  "hintsTitle": "试试这样问 Leet…",
+                  "analyzing": "Leet 正在分析你的描述…",
+                  "timeout": "解析超时，请重试",
+                  "genericError": "解析失败，请重试",
+                  "dismissError": "关闭",
+                  "quotaTooltipPremium": "今日次数已用完",
+                  "quotaTooltipNonPremium": "开通会员，获取更多次数"
+                }
+              },
+              "quest": {
+                "lockedLevelDesc": "完成前面的关卡以解锁本关！",
+                "lockedPremiumDesc": "升级 Plus 会员，解锁隐藏关卡。",
+                "lockedQuizDesc": "通关单元以解锁进阶测试！",
+                "backToMyLevel": "返回我的关卡",
+                "subscribe": "升级 Plus 会员",
+                "learnMore": "了解更多"
+              },
+              "signInTip1": "登录查看题单",
+              "signInTip2": "追踪学习进度",
+              "signIn": "登录",
+              "group": {
+                "title": "小组",
+                "tabProblems": "题目",
+                "tabRank": "排名",
+                "invite": "邀请",
+                "myRank": "我的排名",
+                "todayChecked": "今日已打卡",
+                "todayUnchecked": "今日未打卡",
+                "totalDays": "累计打卡 {{count}} 天",
+                "visitorInviteOnly": "加入小组需要邀请链接",
+                "joinGroup": "加入小组",
+                "viewRank": "查看排名",
+                "manageMembers": "管理",
+                "manageDone": "完成",
+                "rankRule": "排名根据该题单中已解答的题目数量计算。若解答的题目数量相同，则先达到该数量的用户排名更靠前。",
+                "daysPrefix": "打卡",
+                "meBadge": "你",
+                "daysUnit_other": "天",
+                "joinedAt": "{{date}} 加入小组",
+                "recentAcs": "最近 7 天解答",
+                "noRecentAcs": "最近 7 天没有解答题目",
+                "cellDone": "{{date}} · 解答 {{count}} 题",
+                "cellNone": "{{date}} · 未解答",
+                "hiddenMembers": "加入可查看全部排名",
+                "selectedCount": "已选 {{count}} 位成员",
+                "clearSelection": "取消选择",
+                "removeMembers": "移出小组",
+                "createGroup": "创建小组",
+                "createConfirmDesc": "和学习搭子一起，从零开始攻克这个题单吧！",
+                "createConfirmSync": "不想从零开始？同步做题进度",
+                "createConfirmSubmit": "创建",
+                "dissolveGroup": "解散小组",
+                "leaveGroup": "退出小组",
+                "memberCount": "{{count}} 人",
+                "inviteTitle": "邀请好友加入小组",
+                "copy": "复制",
+                "copied": "已复制",
+                "resetLink": "重置",
+                "joinTitleSuffix": "邀请你加入小组",
+                "joinNotePublic": "这是一个公开题单，任何人都能看到排名",
+                "joinNotePrivate": "这是一个私密题单，只有小组内的人能看到排名",
+                "preview": "预览题单",
+                "cancel": "取消",
+                "join": "加入",
+                "confirm": "确定",
+                "inviteInvalidTitle": "邀请链接已失效",
+                "inviteInvalidDesc": "如需加入，请联系题单创建人",
+                "inviteFullTitle": "小组已满员",
+                "questionCount": "{{count}} 题",
+                "memberCountFull": "{{members}} / {{cap}} 人",
+                "removeTitle": "移出 {{count}} 位成员？",
+                "removeDesc": "移出后他们不再出现在小组排名里，小组打卡记录被清除。题单进度属于用户本人，不受影响。",
+                "removeDescPrivate": "这是私密题单，移出后他们将无法再查看题单。",
+                "leaveTitle": "退出小组？",
+                "leaveDesc": "退出后，你的小组排名和打卡记录会被清除。你的题单进度不受影响。",
+                "leaveDescPrivate": "这是私密题单，退出后你将无法再查看这个题单。",
+                "leave": "退出",
+                "dissolveTitle": "解散小组？",
+                "dissolveDesc": "解散后，成员小组排名与打卡记录等信息会被清除，题单进度不受影响。",
+                "dissolveDescPrivate": "这是私密题单，解散后成员将无法再查看题单。",
+                "syncTitle": "同步题库进度",
+                "syncDesc": "{{count}} 题已解答，计入本题单进度？",
+                "syncLater": "稍后",
+                "syncConfirm": "同步",
+                "deleteAlertWithGroup": "您确定要删除此题单吗？小组会解散，题单进度，小组排名与打卡记录等信息会永久清除，本操作无法撤销。",
+                "resetAlertWithGroup": "重置后，本题单进度将被清除（不影响题库或其他题单，小组排名可能改变，不影响小组累计打卡）。确定重置吗？此操作不可撤销。",
+                "toastCopied": "已复制邀请链接",
+                "toastCopyFailed": "复制失败，请手动复制链接",
+                "toastCreated": "小组已创建",
+                "toastRemoved": "已移出 {{count}} 位成员，题单进度不受影响",
+                "toastDissolved": "小组已解散，题单进度不受影响",
+                "toastSynced": "已同步",
+                "toastNothingToSync": "已同步",
+                "toastResetWithGroup": "进度已重置，打卡数据保留",
+                "toastPrivateWithGroup": "已设为私密，小组成员仍可访问",
+                "toastLeft": "已退出小组，题单进度不受影响",
+                "toastJoined": "已加入小组",
+                "toastAlreadyMember": "你已经在这个小组里",
+                "toastInviteReset": "邀请链接已重置，旧链接已失效",
+                "sidebarTitle": "我的小组",
+                "todayLabel": "今天",
+                "yesterdayLabel": "昨天",
+                "goneTitle": "你已不在该小组",
+                "goneDesc": "小组已解散或你已被移出，刷新页面查看最新内容。",
+                "refresh": "刷新"
+              }
+            }
+          }
+        },
+        "initialLocale": "zh",
+        "ns": [
+          "common",
+          "new-study-plan",
+          "progress-calendar",
+          "problemlist"
+        ],
+        "userConfig": {
+          "i18n": {
+            "defaultLocale": "zh",
+            "locales": [
+              "en",
+              "zh"
+            ]
+          },
+          "react": {
+            "useSuspense": false
+          },
+          "reloadOnPrerender": false,
+          "default": {
+            "i18n": {
+              "defaultLocale": "zh",
+              "locales": [
+                "en",
+                "zh"
+              ]
+            },
+            "react": {
+              "useSuspense": false
+            },
+            "reloadOnPrerender": false
+          }
+        }
+      }
+    },
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.67",
+    "__N_SSG": true
+  },
+  "page": "/studyplan/[slug]",
+  "query": {
+    "slug": "top-100-liked"
+  },
+  "buildId": "hQR1IhZetf_wHrNJQErbV",
+  "assetPrefix": "https://static.leetcode.cn/cn-frontendx-assets/production",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gsp": true,
+  "appGip": true,
+  "scriptLoader": []
+}
